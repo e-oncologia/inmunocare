@@ -116,7 +116,7 @@
 			new TypeIt('.passion', {
 				speed: 200,
 		        startDelay: 800,
-		        strings: ['María García'],
+		        strings: ['Inmunoterapia en Cáncer'],
 		        breakLines: false,
 		        loop: true
 			});
