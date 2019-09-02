@@ -14,7 +14,7 @@
 
 	// Init Main Content
 	metronal.mainContent = {
-		list: ["#home", "#about", "#resume", "#portfolio", "#contact"],
+		list: ["#home", "#enlace01", "#enlace02", "#enlace03", "#portfolio"],
 		on: "",
 		off: ""
 	};
@@ -155,7 +155,7 @@
 			var prevMainContentOff = metronal.mainContent.off,
 				targetOff = metronal.mainContent.on,
 				targetOn;
-			if(currentTarget.className === "menu-link" || currentTarget.className === "close-menu-link" || currentTarget.id === "contact-button") {
+			if(currentTarget.className === "menu-link" || currentTarget.className === "close-menu-link" || currentTarget.id === "enlace03-button") {
 				if(metronal.mainContent.list.includes(target)) {
 					targetOn = target;
 				} else {
@@ -177,10 +177,10 @@
 		}
 	};
 
-	// Process Contact Form
-	metronal.processContactForm = function() {
-		var form = $('form[name="contact"]'),
-			message = $('.contact-msg'),
+	// Process enlace03 Form
+	metronal.processenlace03Form = function() {
+		var form = $('form[name="enlace03"]'),
+			message = $('.enlace03-msg'),
 			formData;
 
 		// Success Function
@@ -248,8 +248,8 @@
 		metronal.dynamicPage(e, $(this)[0].hash);
 	});
 
-	// Contact Button On Click
-	$("#contact-button").on("click", function(e) {
+	// enlace03 Button On Click
+	$("#enlace03-button").on("click", function(e) {
 		metronal.dynamicPage(e, $(this)[0].hash);
 	});
 
@@ -272,7 +272,7 @@
 		metronal.setSkillProgress(),
 		metronal.progressAnimation(),
 		metronal.useTypeIt(),
-		metronal.processContactForm();
+		metronal.processenlace03Form();
 	});
 
 })(jQuery);

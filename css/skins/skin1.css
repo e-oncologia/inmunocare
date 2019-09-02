@@ -287,131 +287,151 @@
 .main-content#home .inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center h5 > span {
   color: #f6d365;
 }
-
-.main-content#about .hanging .logo-hanging i,
-.main-content#about .hanging .text-hanging .word h6 > span {
-  color: #fa709a;
-}
-
-.main-content#about .inner-content .content #personal-info .row,
-.main-content#about .inner-content .content #services .row {
+.main-content#home .inner-content .content .box-index .inner-box-wrapper {
   background: rgb(54, 59, 95);
 }
 
-.main-content#about .inner-content .content #personal-info h5:after,
-.main-content#about .inner-content .content #services h5:after {
+.main-content#home .inner-content .content .box-index .inner-box-wrapper:after {
+  -webkit-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
+}
+
+.main-content#home .inner-content .content .box-index .inner-box-wrapper:hover {
+  background: #474f7e;
+}
+
+.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center i {
+  color: #f6d365;
+}
+
+.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5 > span {
+  color: #f6d365;
+}
+.main-content#enlace01 .hanging .logo-hanging i,
+.main-content#enlace01 .hanging .text-hanging .word h6 > span {
+  color: #fa709a;
+}
+
+.main-content#enlace01 .inner-content .content #enlace-info .row,
+.main-content#enlace01 .inner-content .content #services .row {
+  background: rgb(54, 59, 95);
+}
+
+.main-content#enlace01 .inner-content .content #enlace-info h5:after,
+.main-content#enlace01 .inner-content .content #services h5:after {
   background: #fa709a;
 }
 
-.main-content#about .inner-content .content #personal-info .summary {
+.main-content#enlace01 .inner-content .content #enlace-info .summary {
   color: #a8a8a8;
 }
 
-.main-content#about .inner-content .content #personal-info .profile ul li .label i {
+.main-content#enlace01 .inner-content .content #enlace-info .profile ul li .label i {
   color: #00f7ef;
 }
 
-.main-content#about .inner-content .content #personal-info .profile ul li .value {
+.main-content#enlace01 .inner-content .content #enlace-info .profile ul li .value {
   color: #a8a8a8;
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul li a {
+.main-content#enlace01 .inner-content .content #enlace-info .social-media ul li a {
   background: #fff;
   color: rgb(54, 59, 95);
   border-color: transparent;
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul li a > .back {
+.main-content#enlace01 .inner-content .content #enlace-info .social-media ul li a > .back {
   background: rgb(44, 48, 81);
   color: #fff;
   border-color: #fff;
 }
 
-.main-content#about .inner-content .content #personal-info .button-wrapper .single-button a {
+.main-content#enlace01 .inner-content .content #enlace-info .button-wrapper .single-button a {
   background: #474f7e;
   border-color: #fff;
   color: #fff;
 }
 
-.main-content#about .inner-content .content .button-wrapper a > .back {
+.main-content#enlace01 .inner-content .content .button-wrapper a > .back {
   background: rgb(44, 48, 81);
 }
 
-.main-content#about .inner-content .content .button-wrapper a > .front > .value > span,
-.main-content#about .inner-content .content .button-wrapper a > .back > .value > span {
+.main-content#enlace01 .inner-content .content .button-wrapper a > .front > .value > span,
+.main-content#enlace01 .inner-content .content .button-wrapper a > .back > .value > span {
   color: #00f7ef;
 }
 
-.main-content#about .inner-content .content #services .single-service ul .service-number {
+.main-content#enlace01 .inner-content .content #services .single-service ul .service-number {
   color: #00f7ef;
   background: rgb(44, 48, 81);
 }
 
-.main-content#about .inner-content .content #services .single-service > ul {
+.main-content#enlace01 .inner-content .content #services .single-service > ul {
   border-color: rgb(44, 48, 81);
 }
 
-.main-content#about .inner-content .content #services .single-service ul ul .service-name i {
+.main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name i {
   color: #00f7ef;
 }
 
-.main-content#about .inner-content .content #services .single-service ul ul .service-body {
+.main-content#enlace01 .inner-content .content #services .single-service ul ul .service-body {
   color: #a8a8a8;
 }
 
-.main-content#resume .hanging .logo-hanging i,
-.main-content#resume .hanging .text-hanging .word h6 > span {
+.main-content#enlace02 .hanging .logo-hanging i,
+.main-content#enlace02 .hanging .text-hanging .word h6 > span {
   color: #f6d365;
 }
 
-.main-content#resume .inner-content .content .skills .row,
-.main-content#resume .inner-content .content .education .row,
-.main-content#resume .inner-content .content .experience .row,
-.main-content#resume .inner-content .content .fun-facts .row {
+.main-content#enlace02 .inner-content .content .skills .row,
+.main-content#enlace02 .inner-content .content .education .row,
+.main-content#enlace02 .inner-content .content .experience .row,
+.main-content#enlace02 .inner-content .content .fun-facts .row {
    background: rgb(54, 59, 95);
 }
 
-.main-content#resume .inner-content .content .skills h5:after,
-.main-content#resume .inner-content .content .education h5:after,
-.main-content#resume .inner-content .content .experience h5:after,
-.main-content#resume .inner-content .content .fun-facts h5:after {
+.main-content#enlace02 .inner-content .content .skills h5:after,
+.main-content#enlace02 .inner-content .content .education h5:after,
+.main-content#enlace02 .inner-content .content .experience h5:after,
+.main-content#enlace02 .inner-content .content .fun-facts h5:after {
   background: #f6d365;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper .skills-heading,
-.main-content#resume .inner-content .content .education .single-education .education-when-where,
-.main-content#resume .inner-content .content .experience .single-experience .experience-when-where {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper .skills-heading,
+.main-content#enlace02 .inner-content .content .education .single-education .education-when-where,
+.main-content#enlace02 .inner-content .content .experience .single-experience .experience-when-where {
   color: #00f7ef;
   background: rgb(44, 48, 81);
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper > ul,
-.main-content#resume .inner-content .content .education .single-education > ul,
-.main-content#resume .inner-content .content .experience .single-experience > ul {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper > ul,
+.main-content#enlace02 .inner-content .content .education .single-education > ul,
+.main-content#enlace02 .inner-content .content .experience .single-experience > ul {
   border-color: rgb(44, 48, 81);
 }
 
-.main-content#resume .inner-content .content .education .single-education ul ul .education-body,
-.main-content#resume .inner-content .content .experience .single-experience ul ul .experience-body {
+.main-content#enlace02 .inner-content .content .education .single-education ul ul .education-body,
+.main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-body {
   color: #a8a8a8;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name i,
-.main-content#resume .inner-content .content .education .single-education ul ul .education-name i,
-.main-content#resume .inner-content .content .experience .single-experience ul ul .experience-name i,
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-body i {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name i,
+.main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name i,
+.main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name i,
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-body i {
   color: #00f7ef;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .percentage {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .percentage {
   color: #a8a8a8;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
   border-color: #fff;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
   background: #474f7e;
   background: -webkit-linear-gradient(45deg, #474f7e 25%, transparent 25%, transparent 50%, #474f7e 50%, #474f7e 75%, transparent 75%, transparent);
   background: -moz-linear-gradient(45deg, #474f7e 25%, transparent 25%, transparent 50%, #474f7e 50%, #474f7e 75%, transparent 75%, transparent);
@@ -421,22 +441,22 @@
   border-right-color: #fff;
 }
 
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
   color: #a8a8a8;
 }
 
-.main-content#resume .inner-content .content .button-wrapper a {
+.main-content#enlace02 .inner-content .content .button-wrapper a {
   background: #474f7e;
   border-color: #fff;
   color: #fff;
 }
 
-.main-content#resume .inner-content .content .button-wrapper a > .back {
+.main-content#enlace02 .inner-content .content .button-wrapper a > .back {
   background: rgb(44, 48, 81);
 }
 
-.main-content#resume .inner-content .content .button-wrapper a > .front > .value > span,
-.main-content#resume .inner-content .content .button-wrapper a > .back > .value > span {
+.main-content#enlace02 .inner-content .content .button-wrapper a > .front > .value > span,
+.main-content#enlace02 .inner-content .content .button-wrapper a > .back > .value > span {
   color: #00f7ef;
 }
 
@@ -487,57 +507,57 @@
   color: #00f7ef;
 }
 
-.main-content#contact .hanging .logo-hanging i,
-.main-content#contact .hanging .text-hanging .word h6 > span {
+.main-content#enlace03 .hanging .logo-hanging i,
+.main-content#enlace03 .hanging .text-hanging .word h6 > span {
   color: #6991c7;
 }
 
-.main-content#contact .inner-content .content #contact-info > .row,
-.main-content#contact .inner-content .content #contact-form > .row {
+.main-content#enlace03 .inner-content .content #enlace03-info > .row,
+.main-content#enlace03 .inner-content .content #enlace03-form > .row {
   background: rgb(54, 59, 95);
 }
 
-.main-content#contact .inner-content .content #contact-info h5:after,
-.main-content#contact .inner-content .content #contact-form h5:after {
+.main-content#enlace03 .inner-content .content #enlace03-info h5:after,
+.main-content#enlace03 .inner-content .content #enlace03-form h5:after {
   background: #6991c7;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .contact-info-name {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .enlace03-info-name {
   color: #00f7ef;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .value {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .value {
   color: #a8a8a8;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media li a {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a {
   background: #fff;
   color: rgb(54, 59, 95);
   border-color: transparent;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media li a > .back {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a > .back {
   background: #474f7e;
   color: #fff;
   border-color: #fff;
 }
 
-.main-content#contact .inner-content .content #contact-form .note p {
+.main-content#enlace03 .inner-content .content #enlace03-form .note p {
   color: #a8a8a8;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
   background: #474f7e;
   border-color: #fff;
   color: #fff;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] > .front > .value > span,
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] > .back > .value > span {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .front > .value > span,
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .back > .value > span {
   color: #00f7ef;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] > .back {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .back {
   background: rgb(44, 48, 81);
 }
 

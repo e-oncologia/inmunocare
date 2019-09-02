@@ -14,10 +14,10 @@
      3.1. Left Wrapper / #left-wrapper
           3.1.1. Main Content - General / .main-content
           3.1.2. Main Content - Home / .main-content#home
-          3.1.3. Main Content - About / .main-content#about
-          3.1.4. Main Content - Resume / .main-content#resume
+          3.1.3. Main Content - enlace01 / .main-content#enlace01
+          3.1.4. Main Content - enlace02 / .main-content#enlace02
           3.1.5. Main Content - Portfolio / .main-content#portfolio
-          3.1.6. Main Content - Contact / .main-content#contact
+          3.1.6. Main Content - enlace03 / .main-content#enlace03
      3.2. Right Wrapper / #right-wrapper
           3.2.1. Large Profile Picture / .lg-profile-picture
   4. Responsive Design Styles
@@ -88,7 +88,6 @@ ul {
 
 p {
   line-height: 1.75;
-  margin-bottom: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -120,7 +119,10 @@ table tr td p {
 .turquesa {
   color: #00f7ef;
 }
-
+.intermitente:hover {
+  color: #00f7ef;
+  transition:.5s;
+}
 .pregunta{
 	margin-top:20px;
 	padding:20px;
@@ -213,6 +215,7 @@ opacity: 0; /*Inicialmente transparente */
 padding: 5px;
 color: white;
 background: black;
+border-radius: 5%;
 -moz-transition:all ease .8s; /*Aplicamos una ligera transición*/
 -webkit-transition:all ease .8s ;
 transition:all ease .8s;
@@ -221,6 +224,13 @@ transition:all ease .8s;
 filter: alpha(opacity=80);
 opacity: .8; /*Al hacer hover sobre la caja hacemos visible los datos*/
 }
+
+
+
+
+
+
+
 
 
 
@@ -869,6 +879,88 @@ html.mfp-helper {
 }
 
 
+
+
+
+.main-content#home .inner-content .content .box-bienvenida {
+  width: 100%;
+  height: 33%;
+  float: left;
+  padding-bottom: 15px;
+}
+
+
+.main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper:after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 30%;
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+}
+
+.main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center h5 {
+  font-weight: 700;
+}
+
+.main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center h5 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center h5 {
+  margin-top: 16px;
+}
+
+
+
 .main-content#home .inner-content .content .box-casos {
   width: 50%;
   height: 33%;
@@ -947,31 +1039,109 @@ html.mfp-helper {
   margin-top: 16px;
 }
 
+.main-content#home .inner-content .content .box-index {
+  width: 33%;
+  height: 33%;
+  float: left;
+  padding: 15px;
+}
+.main-content#home .inner-content .content .box-index .inner-box-wrapper {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+
+.main-content#home .inner-content .content .box-index .inner-box-wrapper:after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 30%;
+  position: absolute;
+  left: 5%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+}
+
+.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5 {
+  font-weight: 700;
+}
+
+.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5 {
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5 {
+  margin-top: 16px;
+}
+
+
+
 
 /*=================================================================*/
-/* [ 3.1.3. Main Content - About ]                                 */
+/* [ 3.1.3. Main Content - enlace01 ]                                 */
 /*=================================================================*/
 
-.main-content#about .inner-content .content #personal-info .row,
-.main-content#about .inner-content .content #services .row {
+.inner-content .content #enlace-info .row,
+.inner-content .content #services .row {
   margin-top: 28px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
 
-.main-content#about .inner-content .content #personal-info .row {
+.inner-content .content #enlace-info .row {
   padding: 33px 30px 27px;
   margin-bottom: 58px;
 }
 
-.main-content#about .inner-content .content #services .row {
+.inner-content .content #services .row {
   padding: 40px 30px 0;
   margin-bottom: 60px;
 }
 
-.main-content#about .inner-content .content #personal-info h5:after,
-.main-content#about .inner-content .content #services h5:after {
+.inner-content .content #enlace-info h5:after,
+.inner-content .content #services h5:after {
   content: "";
   display: block;
   position: absolute;
@@ -984,7 +1154,7 @@ html.mfp-helper {
   border-radius: 5px;
 }
 
-.main-content#about .inner-content .content #personal-info .profile-picture {
+.inner-content .content #enlace-info .profile-picture {
   width: 120px;
   height: 120px;
   -webkit-border-radius: 50%;
@@ -998,27 +1168,27 @@ html.mfp-helper {
   margin-bottom: 23px;
 }
 
-.main-content#about .inner-content .content #personal-info .summary {
+.inner-content .content #enlace-info .summary {
   margin-bottom: 27px;
 }
 
-.main-content#about .inner-content .content #personal-info .summary p {
+.inner-content .content #enlace-info .summary p {
   margin-bottom: 0;
 }
 
-.main-content#about .inner-content .content #personal-info .summary p:not(:nth-of-type(1)) {
+.inner-content .content #enlace-info .summary p:not(:nth-of-type(1)) {
   margin-top: 16px;
 }
 
-.main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 3) {
+.inner-content .content #enlace-info .profile:nth-child(2n + 3) {
   padding-right: 15px;
 }
 
-.main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 4) {
+.inner-content .content #enlace-info .profile:nth-child(2n + 4) {
   padding-left: 15px;
 }
 
-.main-content#about .inner-content .content #personal-info .profile ul li {
+.inner-content .content #enlace-info .profile ul li {
   margin-bottom: 16px;
   display: -webkit-box;
   display: -moz-box;
@@ -1027,11 +1197,11 @@ html.mfp-helper {
   display: flex;
 }
 
-.main-content#about .inner-content .content #personal-info .profile ul li:last-child {
+.inner-content .content #enlace-info .profile ul li:last-child {
   margin-bottom: 0;
 }
 
-.main-content#about .inner-content .content #personal-info .profile ul li .label {
+.inner-content .content #enlace-info .profile ul li .label {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -1044,16 +1214,16 @@ html.mfp-helper {
   align-items: baseline;
 }
 
-.main-content#about .inner-content .content #personal-info .profile ul li .label,
-.main-content#about .inner-content .content #personal-info .profile ul li .dash {
+.inner-content .content #enlace-info .profile ul li .label,
+.inner-content .content #enlace-info .profile ul li .dash {
   margin-right: 5px;
 }
 
-.main-content#about .inner-content .content #personal-info .profile ul li .label i {
+.inner-content .content #enlace-info .profile ul li .label i {
   margin-right: 13px;
 }
 
-.main-content#about .inner-content .content #personal-info .profile ul li .value {
+.inner-content .content #enlace-info .profile ul li .value {
   word-wrap: break-word;
   -ms-word-break: break-all;
   word-break: break-all;
@@ -1061,26 +1231,26 @@ html.mfp-helper {
   overflow: hidden;
 }
 
-.main-content#about .inner-content .content #personal-info .social-media {
+.inner-content .content #enlace-info .social-media {
   margin-top: 33px;
   margin-bottom: 26px;
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul {
+.inner-content .content #enlace-info .social-media ul {
   line-height: 1;
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul li {
+.inner-content .content #enlace-info .social-media ul li {
   display: inline-block;
   margin-right: 11px;
   margin-bottom: 12px;
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul li:last-of-type {
+.inner-content .content #enlace-info .social-media ul li:last-of-type {
   margin-right: 0;
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul li a {
+.inner-content .content #enlace-info .social-media ul li a {
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -1105,8 +1275,8 @@ html.mfp-helper {
   transition: 0.4s ease-in-out;
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul li a > .front,
-.main-content#about .inner-content .content #personal-info .social-media ul li a > .back {
+.inner-content .content #enlace-info .social-media ul li a > .front,
+.inner-content .content #enlace-info .social-media ul li a > .back {
   width: 100%;
   height: 100%;
   display: block;
@@ -1119,7 +1289,7 @@ html.mfp-helper {
   transition: 0.6s ease-in-out;
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul li a > .front {
+.inner-content .content #enlace-info .social-media ul li a > .front {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1127,7 +1297,7 @@ html.mfp-helper {
   transform: scale(1);
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul li a > .back {
+.inner-content .content #enlace-info .social-media ul li a > .back {
   -webkit-transform: scale(4);
   -moz-transform: scale(4);
   -ms-transform: scale(4);
@@ -1136,7 +1306,7 @@ html.mfp-helper {
   opacity: 0;
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul li a:hover > .front {
+.inner-content .content #enlace-info .social-media ul li a:hover > .front {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -1144,7 +1314,7 @@ html.mfp-helper {
   transform: scale(0);
 }
 
-.main-content#about .inner-content .content #personal-info .social-media ul li a:hover > .back {
+.inner-content .content #enlace-info .social-media ul li a:hover > .back {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1153,16 +1323,16 @@ html.mfp-helper {
   opacity: 1;
 }
 
-.main-content#about .inner-content .content #personal-info .button-wrapper {
+.inner-content .content #enlace-info .button-wrapper {
   line-height: 1;
 }
 
-.main-content#about .inner-content .content #personal-info .button-wrapper .single-button {
+.inner-content .content #enlace-info .button-wrapper .single-button {
   margin-bottom: 12px;
   display: inline-block;
 }
 
-.main-content#about .inner-content .content #personal-info .button-wrapper .single-button a {
+.inner-content .content #enlace-info .button-wrapper .single-button a {
   display: inline-block;
   text-transform: capitalize;
   border-width: 1px;
@@ -1183,12 +1353,12 @@ html.mfp-helper {
   transition: 0.4s ease-in-out;
 }
 
-.main-content#about .inner-content .content #personal-info .button-wrapper .single-button:last-of-type {
+.inner-content .content #enlace-info .button-wrapper .single-button:last-of-type {
   margin-right: 0;
 }
 
-.main-content#about .inner-content .content .button-wrapper a > .front,
-.main-content#about .inner-content .content .button-wrapper a > .back {
+.inner-content .content .button-wrapper a > .front,
+.inner-content .content .button-wrapper a > .back {
   width: 100%;
   height: 100%;
   display: block;
@@ -1201,7 +1371,7 @@ html.mfp-helper {
   transition: 0.6s ease-in-out;
 }
 
-.main-content#about .inner-content .content .button-wrapper a > .front {
+.main-content#enlace01 .inner-content .content .button-wrapper a > .front {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1209,7 +1379,7 @@ html.mfp-helper {
   transform: scale(1);
 }
 
-.main-content#about .inner-content .content .button-wrapper a > .back {
+.main-content#enlace01 .inner-content .content .button-wrapper a > .back {
   -webkit-transform: scale(4);
   -moz-transform: scale(4);
   -ms-transform: scale(4);
@@ -1218,12 +1388,12 @@ html.mfp-helper {
   opacity: 0;
 }
 
-.main-content#about .inner-content .content #personal-info .button-wrapper .single-button a > .front > i,
-.main-content#about .inner-content .content #personal-info .button-wrapper .single-button a > .back > i {
+.inner-content .content #enlace-info .button-wrapper .single-button a > .front > i,
+.inner-content .content #enlace-info .button-wrapper .single-button a > .back > i {
   margin-right: 13px;
 }
 
-.main-content#about .inner-content .content .button-wrapper a:hover > .front {
+.main-content#enlace01 .inner-content .content .button-wrapper a:hover > .front {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -1231,7 +1401,7 @@ html.mfp-helper {
   transform: scale(0);
 }
 
-.main-content#about .inner-content .content .button-wrapper a:hover > .back {
+.main-content#enlace01 .inner-content .content .button-wrapper a:hover > .back {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1240,34 +1410,34 @@ html.mfp-helper {
   opacity: 1;
 }
 
-.main-content#about .inner-content .content #services .single-service {
+.main-content#enlace01 .inner-content .content #services .single-service {
   margin-bottom: 40px;
 }
 
-.main-content#about .inner-content .content #services .single-service:nth-of-type(odd) {
+.main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
   padding-right: 15px;
 }
 
-.main-content#about .inner-content .content #services .single-service:nth-of-type(even) {
+.main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
   padding-left: 15px;
 }
 
-.main-content#about .inner-content .content #services .single-service ul .service-number {
+.main-content#enlace01 .inner-content .content #services .single-service ul .service-number {
   padding: 12px 14px;
   text-align: center;
 }
 
-.main-content#about .inner-content .content #services .single-service ul .service-number .first-word {
+.main-content#enlace01 .inner-content .content #services .single-service ul .service-number .first-word {
   margin-right: 1px;
 }
 
-.main-content#about .inner-content .content #services .single-service ul .service-number .second-word {
+.main-content#enlace01 .inner-content .content #services .single-service ul .service-number .second-word {
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 1px;
 }
 
-.main-content#about .inner-content .content #services .single-service > ul {
+.main-content#enlace01 .inner-content .content #services .single-service > ul {
   border-width: 1px;
   border-style: solid;
   -webkit-border-radius: 5px;
@@ -1276,48 +1446,48 @@ html.mfp-helper {
   height: 100%;
 }
 
-.main-content#about .inner-content .content #services .single-service ul ul {
+.main-content#enlace01 .inner-content .content #services .single-service ul ul {
   padding: 24px 14px;
 }
 
-.main-content#about .inner-content .content #services .single-service ul ul .service-name {
+.main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name {
   margin-bottom: 16px;
 }
 
-.main-content#about .inner-content .content #services .single-service ul ul .service-name i {
+.main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name i {
   margin-right: 13px;
 }
 
 /*=================================================================*/
-/* [ 3.1.4. Main Content - Resume ]                                */
+/* [ 3.1.4. Main Content - enlace02 ]                                */
 /*=================================================================*/
 
-.main-content#resume .inner-content .content .skills .row,
-.main-content#resume .inner-content .content .education .row,
-.main-content#resume .inner-content .content .experience .row,
-.main-content#resume .inner-content .content .fun-facts .row {
+.main-content#enlace02 .inner-content .content .skills .row,
+.main-content#enlace02 .inner-content .content .education .row,
+.main-content#enlace02 .inner-content .content .experience .row,
+.main-content#enlace02 .inner-content .content .fun-facts .row {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   margin-top: 28px;
 }
 
-.main-content#resume .inner-content .content .skills .row,
-.main-content#resume .inner-content .content .education .row,
-.main-content#resume .inner-content .content .experience .row {
+.main-content#enlace02 .inner-content .content .skills .row,
+.main-content#enlace02 .inner-content .content .education .row,
+.main-content#enlace02 .inner-content .content .experience .row {
   padding: 40px 30px 0;
   margin-bottom: 58px;
 }
 
-.main-content#resume .inner-content .content .fun-facts .row {
+.main-content#enlace02 .inner-content .content .fun-facts .row {
   padding: 40px 30px 0;
   margin-bottom: 60px;
 }
 
-.main-content#resume .inner-content .content .skills h5:after,
-.main-content#resume .inner-content .content .education h5:after,
-.main-content#resume .inner-content .content .experience h5:after,
-.main-content#resume .inner-content .content .fun-facts h5:after {
+.main-content#enlace02 .inner-content .content .skills h5:after,
+.main-content#enlace02 .inner-content .content .education h5:after,
+.main-content#enlace02 .inner-content .content .experience h5:after,
+.main-content#enlace02 .inner-content .content .fun-facts h5:after {
   content: "";
   display: block;
   position: absolute;
@@ -1330,38 +1500,38 @@ html.mfp-helper {
   border-radius: 5px;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper,
-.main-content#resume .inner-content .content .education .single-education,
-.main-content#resume .inner-content .content .experience .single-experience {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper,
+.main-content#enlace02 .inner-content .content .education .single-education,
+.main-content#enlace02 .inner-content .content .experience .single-experience {
   margin-bottom: 40px;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper .skills-heading,
-.main-content#resume .inner-content .content .education .single-education .education-when-where,
-.main-content#resume .inner-content .content .experience .single-experience .experience-when-where {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper .skills-heading,
+.main-content#enlace02 .inner-content .content .education .single-education .education-when-where,
+.main-content#enlace02 .inner-content .content .experience .single-experience .experience-when-where {
   padding: 12px 14px;
   text-align: center;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper .skills-heading .first-word,
-.main-content#resume .inner-content .content .education .single-education .education-when-where .when,
-.main-content#resume .inner-content .content .experience .single-experience .experience-when-where .when {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper .skills-heading .first-word,
+.main-content#enlace02 .inner-content .content .education .single-education .education-when-where .when,
+.main-content#enlace02 .inner-content .content .experience .single-experience .experience-when-where .when {
   margin-right: 1px;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper .skills-heading .second-word,
-.main-content#resume .inner-content .content .education .single-education .education-when-where .where,
-.main-content#resume .inner-content .content .experience .single-experience .experience-when-where .where {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper .skills-heading .second-word,
+.main-content#enlace02 .inner-content .content .education .single-education .education-when-where .where,
+.main-content#enlace02 .inner-content .content .experience .single-experience .experience-when-where .where {
   font-weight: 700;
   margin-left: 1px;
   text-transform: uppercase;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper > ul,
-.main-content#resume .inner-content .content .education .single-education > ul,
-.main-content#resume .inner-content .content .experience .single-experience > ul {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper > ul,
+.main-content#enlace02 .inner-content .content .education .single-education > ul,
+.main-content#enlace02 .inner-content .content .experience .single-experience > ul {
   border-width: 1px;
   border-style: solid;
   -webkit-border-radius: 5px;
@@ -1370,28 +1540,28 @@ html.mfp-helper {
   height: 100%;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
-.main-content#resume .inner-content .content .education .single-education ul ul,
-.main-content#resume .inner-content .content .experience .single-experience ul ul {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
+.main-content#enlace02 .inner-content .content .education .single-education ul ul,
+.main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
   padding: 23px 14px 0;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
   padding-bottom: 30px;
 }
 
-.main-content#resume .inner-content .content .education .single-education ul ul,
-.main-content#resume .inner-content .content .experience .single-experience ul ul {
+.main-content#enlace02 .inner-content .content .education .single-education ul ul,
+.main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
   padding-bottom: 23px;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul {
   position: relative;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name,
-.main-content#resume .inner-content .content .education .single-education ul ul .education-name,
-.main-content#resume .inner-content .content .experience .single-experience ul ul .experience-name {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name,
+.main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name,
+.main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name {
   word-wrap: break-word;
   -ms-word-break: break-all;
   word-break: break-all;
@@ -1399,30 +1569,30 @@ html.mfp-helper {
   overflow: hidden;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name {
   padding-right: 40px;
   margin-bottom: 7px;
 }
 
-.main-content#resume .inner-content .content .education .single-education ul ul .education-name,
-.main-content#resume .inner-content .content .experience .single-experience ul ul .experience-name {
+.main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name,
+.main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name {
   margin-bottom: 16px;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name i,
-.main-content#resume .inner-content .content .education .single-education ul ul .education-name i,
-.main-content#resume .inner-content .content .experience .single-experience ul ul .experience-name i,
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-body i {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name i,
+.main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name i,
+.main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name i,
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-body i {
   margin-right: 13px;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .percentage {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .percentage {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
   height: 30px;
   width: 100%;
   -webkit-border-radius: 5px;
@@ -1434,7 +1604,7 @@ html.mfp-helper {
   overflow: hidden;
 }
 
-.main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
   background-position: 0 0;
   background-size: 40px 40px;
   display: block;
@@ -1480,37 +1650,37 @@ html.mfp-helper {
   }
 }
 
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact {
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact {
   text-align: center;
   margin-bottom: 33px;
 }
 
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
   padding-right: 15px;
 }
 
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
   padding-left: 15px;
 }
 
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
   margin-bottom: 11px;
 }
 
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
   margin-bottom: 6px;
 }
 
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
   font-size: 2.369em;
 }
 
-.main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-body {
+.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-body {
   word-wrap: break-word;
   -ms-word-break: break-all;
   word-break: break-all;
@@ -1518,12 +1688,12 @@ html.mfp-helper {
   overflow: hidden;
 }
 
-.main-content#resume .inner-content .content .button-wrapper {
+.main-content#enlace02 .inner-content .content .button-wrapper {
   line-height: 1;
   margin-bottom: 58px;
 }
 
-.main-content#resume .inner-content .content .button-wrapper a {
+.main-content#enlace02 .inner-content .content .button-wrapper a {
   display: inline-block;
   text-transform: capitalize;
   border-width: 1px;
@@ -1544,12 +1714,12 @@ html.mfp-helper {
   transition: 0.4s ease-in-out;
 }
 
-.main-content#resume .inner-content .content .button-wrapper a:last-of-type {
+.main-content#enlace02 .inner-content .content .button-wrapper a:last-of-type {
   margin-right: 0;
 }
 
-.main-content#resume .inner-content .content .button-wrapper a > .front,
-.main-content#resume .inner-content .content .button-wrapper a > .back {
+.main-content#enlace02 .inner-content .content .button-wrapper a > .front,
+.main-content#enlace02 .inner-content .content .button-wrapper a > .back {
   width: 100%;
   height: 100%;
   display: block;
@@ -1562,7 +1732,7 @@ html.mfp-helper {
   transition: 0.6s ease-in-out;
 }
 
-.main-content#resume .inner-content .content .button-wrapper a > .front {
+.main-content#enlace02 .inner-content .content .button-wrapper a > .front {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1570,7 +1740,7 @@ html.mfp-helper {
   transform: scale(1);
 }
 
-.main-content#resume .inner-content .content .button-wrapper a > .back {
+.main-content#enlace02 .inner-content .content .button-wrapper a > .back {
   -webkit-transform: scale(4);
   -moz-transform: scale(4);
   -ms-transform: scale(4);
@@ -1579,12 +1749,12 @@ html.mfp-helper {
   opacity: 0;
 }
 
-.main-content#resume .inner-content .content .button-wrapper a > .front > i,
-.main-content#resume .inner-content .content .button-wrapper a > .back > i {
+.main-content#enlace02 .inner-content .content .button-wrapper a > .front > i,
+.main-content#enlace02 .inner-content .content .button-wrapper a > .back > i {
   margin-right: 13px;
 }
 
-.main-content#resume .inner-content .content .button-wrapper a:hover > .front {
+.main-content#enlace02 .inner-content .content .button-wrapper a:hover > .front {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -1592,7 +1762,7 @@ html.mfp-helper {
   transform: scale(0);
 }
 
-.main-content#resume .inner-content .content .button-wrapper a:hover > .back {
+.main-content#enlace02 .inner-content .content .button-wrapper a:hover > .back {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1848,29 +2018,29 @@ html.mfp-helper {
 }
 
 /*=================================================================*/
-/* [ 3.1.6. Main Content - Contact ]                               */
+/* [ 3.1.6. Main Content - enlace03 ]                               */
 /*=================================================================*/
 
-.main-content#contact .inner-content .content #contact-info > .row,
-.main-content#contact .inner-content .content #contact-form > .row {
+.main-content#enlace03 .inner-content .content #enlace03-info > .row,
+.main-content#enlace03 .inner-content .content #enlace03-form > .row {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   margin-top: 28px;
 }
 
-.main-content#contact .inner-content .content #contact-info > .row {
+.main-content#enlace03 .inner-content .content #enlace03-info > .row {
   margin-bottom: 58px;
   padding: 34px 30px 27px;
 }
 
-.main-content#contact .inner-content .content #contact-form > .row {
+.main-content#enlace03 .inner-content .content #enlace03-form > .row {
   margin-bottom: 60px;
   padding: 33px 30px 40px;
 }
 
-.main-content#contact .inner-content .content #contact-info h5:after,
-.main-content#contact .inner-content .content #contact-form h5:after {
+.main-content#enlace03 .inner-content .content #enlace03-info h5:after,
+.main-content#enlace03 .inner-content .content #enlace03-form h5:after {
   content: "";
   display: block;
   position: absolute;
@@ -1883,33 +2053,33 @@ html.mfp-helper {
   border-radius: 5px;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
   margin-bottom: 28px;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(odd) {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
   padding-right: 15px;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(even) {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
   padding-left: 15px;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:last-of-type {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:last-of-type {
   margin-bottom: 0;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .contact-info-name {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .enlace03-info-name {
   display: block;
   text-transform: capitalize;
   margin-bottom: 2px;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .icon-of-value {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .icon-of-value {
   margin-right: 11px;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .value {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .value {
   word-wrap: break-word;
   -ms-word-break: break-all;
   word-break: break-all;
@@ -1917,18 +2087,18 @@ html.mfp-helper {
   overflow: hidden;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media {
   line-height: 1;
   margin-top: 8px;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media li {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li {
   display: inline-block;
   margin-right: 11px;
   margin-bottom: 12px;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media li a {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a {
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -1953,8 +2123,8 @@ html.mfp-helper {
   transition: 0.4s ease-in-out;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media li a > .front,
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media li a > .back {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a > .front,
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a > .back {
   width: 100%;
   height: 100%;
   display: block;
@@ -1967,7 +2137,7 @@ html.mfp-helper {
   transition: 0.6s ease-in-out;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media li a > .front {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a > .front {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1975,7 +2145,7 @@ html.mfp-helper {
   transform: scale(1);
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media li a > .back {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a > .back {
   -webkit-transform: scale(4);
   -moz-transform: scale(4);
   -ms-transform: scale(4);
@@ -1984,7 +2154,7 @@ html.mfp-helper {
   opacity: 0;
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media li a:hover > .front {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a:hover > .front {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -1992,7 +2162,7 @@ html.mfp-helper {
   transform: scale(0);
 }
 
-.main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li .social-media li a:hover > .back {
+.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a:hover > .back {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -2001,57 +2171,57 @@ html.mfp-helper {
   opacity: 1;
 }
 
-.main-content#contact .inner-content .content #contact-form .alert {
+.main-content#enlace03 .inner-content .content #enlace03-form .alert {
   display: none;
   padding: 7px 14px;
   margin-bottom: 10px;
 }
 
-.main-content#contact .inner-content .content #contact-form .note {
+.main-content#enlace03 .inner-content .content #enlace03-form .note {
   margin-bottom: 33px;
 }
 
-.main-content#contact .inner-content .content #contact-form .note p {
+.main-content#enlace03 .inner-content .content #enlace03-form .note p {
   margin-bottom: 0;
 }
 
-.main-content#contact .inner-content .content #contact-form .note p:not(:nth-of-type(1)) {
+.main-content#enlace03 .inner-content .content #enlace03-form .note p:not(:nth-of-type(1)) {
   margin-top: 16px;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group {
   margin-bottom: 10px;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group:last-child {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group:last-child {
   margin-bottom: 0;
   line-height: 1;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group .inner-form-group {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group {
   width: 50%;
   float: left;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group .inner-form-group:first-child {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:first-child {
   padding-right: 5px;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group .inner-form-group:last-child {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:last-child {
   padding-left: 5px;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group .form-control {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .form-control {
   font-size: 1em;
   padding: 7px 14px 8px;
   border: 0;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group input.form-control {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group input.form-control {
   height: 40px;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group textarea.form-control {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group textarea.form-control {
   height: 150px;
   -webkit-transition: 0.4s ease-in-out;
   -moz-transition: 0.4s ease-in-out;
@@ -2059,13 +2229,13 @@ html.mfp-helper {
   transition: 0.4s ease-in-out;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group .form-control:focus {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .form-control:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
   display: inline-block;
   text-transform: capitalize;
   position: relative;
@@ -2087,8 +2257,8 @@ html.mfp-helper {
   transition: 0.4s ease-in-out;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] > .front,
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] > .back {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .front,
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .back {
   width: 100%;
   height: 100%;
   display: block;
@@ -2101,12 +2271,12 @@ html.mfp-helper {
   transition: 0.6s ease-in-out;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] > .front > i,
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] > .back > i {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .front > i,
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .back > i {
   margin-right: 10px;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] > .front {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .front {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -2114,7 +2284,7 @@ html.mfp-helper {
   transform: scale(1);
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] > .back {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .back {
   -webkit-transform: scale(4);
   -moz-transform: scale(4);
   -ms-transform: scale(4);
@@ -2123,7 +2293,7 @@ html.mfp-helper {
   opacity: 0;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"]:hover > .front {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"]:hover > .front {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -2131,7 +2301,7 @@ html.mfp-helper {
   transform: scale(0);
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"]:hover > .back {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"]:hover > .back {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -2140,7 +2310,7 @@ html.mfp-helper {
   opacity: 1;
 }
 
-.main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"]:focus {
+.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"]:focus {
   outline: 0;
 }
 
@@ -2201,42 +2371,42 @@ html.mfp-helper {
     height: calc(100% - ((60px * 3) + 15px + (2.827em + 1.414em) - 6px));
   }
 
-  .main-content#about .inner-content .content #personal-info .social-media ul li {
+  .inner-content .content #enlace-info .social-media ul li {
     margin-bottom: 13px;
   }
 
-  .main-content#about .inner-content .content #services .single-service ul ul {
+  .main-content#enlace01 .inner-content .content #services .single-service ul ul {
     padding: 23px 14px;
   }
 
-  .main-content#about .inner-content .content #services .single-service ul ul .service-name {
+  .main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name {
     margin-bottom: 15px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
-  .main-content#resume .inner-content .content .education .single-education ul ul,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
     padding: 22px 14px 0;
   }
 
-  .main-content#resume .inner-content .content .education .single-education ul ul,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul {
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
     padding-bottom: 23px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
     margin-bottom: 8px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     margin-bottom: 2px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     font-size: 2.827em;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     padding: 33px 30px 27px;
   }
 }
@@ -2317,137 +2487,137 @@ html.mfp-helper {
 
 
 
-  .main-content#about .inner-content .content #personal-info .row,
-  .main-content#about .inner-content .content #services .row {
+  .inner-content .content #enlace-info .row,
+  .inner-content .content #services .row {
     margin-top: 38px;
   }
 
-  .main-content#about .inner-content .content #personal-info .row {
+  .inner-content .content #enlace-info .row {
     padding: 42px 40px 37px;
     margin-bottom: 78px;
   }
 
-  .main-content#about .inner-content .content #services .row {
+  .inner-content .content #services .row {
     padding: 50px 40px 0;
     margin-bottom: 80px;
   }
 
-  .main-content#about .inner-content .content #personal-info h5:after,
-  .main-content#about .inner-content .content #services h5:after {
+  .inner-content .content #enlace-info h5:after,
+  .inner-content .content #services h5:after {
     bottom: -19px;
     width: 40px;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary {
+  .inner-content .content #enlace-info .summary {
     margin-bottom: 35px;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary p:not(:nth-of-type(1)) {
+  .inner-content .content #enlace-info .summary p:not(:nth-of-type(1)) {
     margin-top: 25px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 3) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 3) {
     padding-right: 20px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 4) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 4) {
     padding-left: 20px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile ul li {
+  .inner-content .content #enlace-info .profile ul li {
     margin-bottom: 24px;
   }
 
-  .main-content#about .inner-content .content #personal-info .social-media {
+  .inner-content .content #enlace-info .social-media {
     margin-top: 43px;
     margin-bottom: 36px;
   }
 
-  .main-content#about .inner-content .content #services .single-service {
+  .main-content#enlace01 .inner-content .content #services .single-service {
     margin-bottom: 50px;
   }
 
-  .main-content#about .inner-content .content #services .single-service:nth-of-type(odd) {
+  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
     padding-right: 20px;
   }
 
-  .main-content#about .inner-content .content #services .single-service:nth-of-type(even) {
+  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
     padding-left: 20px;
   }
 
-  .main-content#about .inner-content .content #services .single-service ul ul {
+  .main-content#enlace01 .inner-content .content #services .single-service ul ul {
     padding: 32px 14px 33px;
   }
 
-  .main-content#about .inner-content .content #services .single-service ul ul .service-name {
+  .main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name {
     margin-bottom: 24px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row,
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row,
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     margin-top: 38px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row {
     padding: 50px 40px 0;
     margin-bottom: 78px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     padding: 50px 40px 0;
     margin-bottom: 80px;
   }
 
-  .main-content#resume .inner-content .content .skills h5:after,
-  .main-content#resume .inner-content .content .education h5:after,
-  .main-content#resume .inner-content .content .experience h5:after,
-  .main-content#resume .inner-content .content .fun-facts h5:after {
+  .main-content#enlace02 .inner-content .content .skills h5:after,
+  .main-content#enlace02 .inner-content .content .education h5:after,
+  .main-content#enlace02 .inner-content .content .experience h5:after,
+  .main-content#enlace02 .inner-content .content .fun-facts h5:after {
     width: 40px;
     bottom: -19px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper,
-  .main-content#resume .inner-content .content .education .single-education,
-  .main-content#resume .inner-content .content .experience .single-experience {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper,
+  .main-content#enlace02 .inner-content .content .education .single-education,
+  .main-content#enlace02 .inner-content .content .experience .single-experience {
     margin-bottom: 50px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
-  .main-content#resume .inner-content .content .education .single-education:nth-of-type(odd),
-  .main-content#resume .inner-content .content .experience .single-experience:nth-of-type(odd) {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(odd) {
     padding-right: 20px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
-  .main-content#resume .inner-content .content .education .single-education:nth-of-type(even),
-  .main-content#resume .inner-content .content .experience .single-experience:nth-of-type(even) {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(even) {
     padding-left: 20px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
-  .main-content#resume .inner-content .content .education .single-education ul ul,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
     padding: 32px 14px 0;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
     padding-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .education .single-education ul ul,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul {
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
     padding-bottom: 32px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
     height: 40px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
     background-size: 50px 50px;
   }
 
@@ -2478,37 +2648,37 @@ html.mfp-helper {
     }
   }
 
-  .main-content#resume .inner-content .content .education .single-education ul ul .education-name,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul .experience-name {
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name {
     margin-bottom: 24px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact {
     margin-bottom: 43px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
     padding-right: 20px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
     padding-left: 20px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
     margin-bottom: 15px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     margin-bottom: 11px;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper {
+  .main-content#enlace02 .inner-content .content .button-wrapper {
     margin-bottom: 79px;
   }
 
@@ -2546,61 +2716,61 @@ html.mfp-helper {
     margin: 0 20px 40px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row,
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row,
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-top: 38px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     margin-bottom: 78px;
     padding: 43px 40px 37px;
   }
 
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-bottom: 80px;
     padding: 42px 40px 50px;
   }
 
-  .main-content#contact .inner-content .content #contact-form h5:after,
-  .main-content#contact .inner-content .content #contact-info h5:after {
+  .main-content#enlace03 .inner-content .content #enlace03-form h5:after,
+  .main-content#enlace03 .inner-content .content #enlace03-info h5:after {
     bottom: -19px;
     width: 40px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
     margin-bottom: 38px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(odd) {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
     padding-right: 20px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(even) {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
     padding-left: 20px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .alert {
+  .main-content#enlace03 .inner-content .content #enlace03-form .alert {
     padding: 11px 14px;
     margin-bottom: 10px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .note {
+  .main-content#enlace03 .inner-content .content #enlace03-form .note {
     margin-bottom: 43px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .note p:not(:nth-of-type(1)) {
+  .main-content#enlace03 .inner-content .content #enlace03-form .note p:not(:nth-of-type(1)) {
     margin-top: 20px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group input.form-control {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group input.form-control {
     height: 50px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group textarea.form-control {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group textarea.form-control {
     height: 158px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
     width: 170px;
     margin-top: 40px;
   }
@@ -2639,11 +2809,11 @@ html.mfp-helper {
     height: calc(100% - ((80px * 3) + 15px + (3.375em + 1.5em) - 6px));
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     font-size: 3.375em;
   }
 
-  .main-content#contact .inner-content .content #contact-form .alert {
+  .main-content#enlace03 .inner-content .content #enlace03-form .alert {
     padding: 10px 14px;
   }
 }
@@ -2736,137 +2906,137 @@ html.mfp-helper {
 
 
 
-  .main-content#about .inner-content .content #personal-info .row,
-  .main-content#about .inner-content .content #services .row {
+  .inner-content .content #enlace-info .row,
+  .inner-content .content #services .row {
     margin-top: 23px;
   }
 
-  .main-content#about .inner-content .content #personal-info .row {
+  .inner-content .content #enlace-info .row {
     padding: 28px 25px 22px;
     margin-bottom: 48px;
   }
 
-  .main-content#about .inner-content .content #services .row {
+  .inner-content .content #services .row {
     padding: 35px 25px 0;
     margin-bottom: 50px;
   }
 
-  .main-content#about .inner-content .content #personal-info h5:after,
-  .main-content#about .inner-content .content #services h5:after {
+  .inner-content .content #enlace-info h5:after,
+  .inner-content .content #services h5:after {
     bottom: -11.5px;
     width: 25px;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary {
+  .inner-content .content #enlace-info .summary {
     margin-bottom: 21px;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary p:not(:nth-of-type(1)) {
+  .inner-content .content #enlace-info .summary p:not(:nth-of-type(1)) {
     margin-top: 11px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 3) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 3) {
     padding-right: 12.5px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 4) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 4) {
     padding-left: 12.5px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile ul li {
+  .inner-content .content #enlace-info .profile ul li {
     margin-bottom: 11px;
   }
 
-  .main-content#about .inner-content .content #personal-info .social-media {
+  .inner-content .content #enlace-info .social-media {
     margin-top: 29px;
     margin-bottom: 21px;
   }
 
-  .main-content#about .inner-content .content #services .single-service {
+  .main-content#enlace01 .inner-content .content #services .single-service {
     margin-bottom: 35px;
   }
 
-  .main-content#about .inner-content .content #services .single-service:nth-of-type(odd) {
+  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
     padding-right: 12.5px;
   }
 
-  .main-content#about .inner-content .content #services .single-service:nth-of-type(even) {
+  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
     padding-left: 12.5px;
   }
 
-  .main-content#about .inner-content .content #services .single-service ul ul {
+  .main-content#enlace01 .inner-content .content #services .single-service ul ul {
     padding: 18px 14px 19px;
   }
 
-  .main-content#about .inner-content .content #services .single-service ul ul .service-name {
+  .main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name {
     margin-bottom: 11px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row,
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row,
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     margin-top: 23px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row {
     padding: 35px 25px 0;
     margin-bottom: 48px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     padding: 35px 25px 0;
     margin-bottom: 50px;
   }
 
-  .main-content#resume .inner-content .content .skills h5:after,
-  .main-content#resume .inner-content .content .education h5:after,
-  .main-content#resume .inner-content .content .experience h5:after,
-  .main-content#resume .inner-content .content .fun-facts h5:after {
+  .main-content#enlace02 .inner-content .content .skills h5:after,
+  .main-content#enlace02 .inner-content .content .education h5:after,
+  .main-content#enlace02 .inner-content .content .experience h5:after,
+  .main-content#enlace02 .inner-content .content .fun-facts h5:after {
     width: 25px;
     bottom: -11.5px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper,
-  .main-content#resume .inner-content .content .education .single-education,
-  .main-content#resume .inner-content .content .experience .single-experience {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper,
+  .main-content#enlace02 .inner-content .content .education .single-education,
+  .main-content#enlace02 .inner-content .content .experience .single-experience {
     margin-bottom: 35px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
-  .main-content#resume .inner-content .content .education .single-education:nth-of-type(odd),
-  .main-content#resume .inner-content .content .experience .single-experience:nth-of-type(odd) {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(odd) {
     padding-right: 12.5px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
-  .main-content#resume .inner-content .content .education .single-education:nth-of-type(even),
-  .main-content#resume .inner-content .content .experience .single-experience:nth-of-type(even) {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(even) {
     padding-left: 12.5px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
-  .main-content#resume .inner-content .content .education .single-education ul ul,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
     padding: 18px 14px 0;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
     padding-bottom: 25px;
   }
 
-  .main-content#resume .inner-content .content .education .single-education ul ul,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul {
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
     padding-bottom: 19px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
     height: 25px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
     background-size: 35px 35px;
   }
 
@@ -2897,41 +3067,41 @@ html.mfp-helper {
     }
   }
 
-  .main-content#resume .inner-content .content .education .single-education ul ul .education-name,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul .experience-name {
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name {
     margin-bottom: 11px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact {
     margin-bottom: 28px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
     padding-right: 12.5px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
     padding-left: 12.5px;
     padding-right: 12.5px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
     padding-left: 12.5px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
     margin-bottom: 8.5px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     margin-bottom: 5.5px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     font-size: 1.953em;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper {
+  .main-content#enlace02 .inner-content .content .button-wrapper {
     margin-bottom: 49px;
   }
 
@@ -2969,48 +3139,48 @@ html.mfp-helper {
     margin: 0 12.5px 25px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row,
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row,
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-top: 23px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     margin-bottom: 48px;
     padding: 27px 25px 21px;
   }
 
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-bottom: 50px;
     padding: 27px 25px 35px;
   }
 
-  .main-content#contact .inner-content .content #contact-form h5:after,
-  .main-content#contact .inner-content .content #contact-info h5:after {
+  .main-content#enlace03 .inner-content .content #enlace03-form h5:after,
+  .main-content#enlace03 .inner-content .content #enlace03-info h5:after {
     bottom: -11.5px;
     width: 25px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
     margin-bottom: 22px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(odd) {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
     padding-right: 12.5px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(even) {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
     padding-left: 12.5px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .note {
+  .main-content#enlace03 .inner-content .content #enlace03-form .note {
     margin-bottom: 29px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .note p:not(:nth-of-type(1)) {
+  .main-content#enlace03 .inner-content .content #enlace03-form .note p:not(:nth-of-type(1)) {
     margin-top: 10.5px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
     margin-top: 25px;
   }
 }
@@ -3047,25 +3217,25 @@ html.mfp-helper {
   }
 
 
-  .main-content#about .inner-content .content #personal-info .row {
+  .inner-content .content #enlace-info .row {
     margin-bottom: 38px;
   }
 
-  .main-content#about .inner-content .content #services .row {
+  .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper {
+  .main-content#enlace02 .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -3073,11 +3243,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -3090,21 +3260,21 @@ html.mfp-helper {
     max-width: 100%;
   }
 
-  .main-content#about .inner-content .content #personal-info .row {
+  .inner-content .content #enlace-info .row {
     padding-top: 35px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile-picture {
+  .inner-content .content #enlace-info .profile-picture {
     display: block;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary {
+  .inner-content .content #enlace-info .summary {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary p {
+  .inner-content .content #enlace-info .summary p {
     margin-left: 25px;
   }
 
@@ -3137,25 +3307,25 @@ html.mfp-helper {
   }
 
 
-  .main-content#about .inner-content .content #personal-info .row {
+  .inner-content .content #enlace-info .row {
     margin-bottom: 38px;
   }
 
-  .main-content#about .inner-content .content #services .row {
+  .main-content#enlace01 .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper {
+  .main-content#enlace02 .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -3163,11 +3333,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -3265,141 +3435,146 @@ html.mfp-helper {
   .main-content#home .inner-content .content .box-wrapper {
     padding-bottom: 10px;
   }
-
+  .main-content#home .inner-content .content .box-bienvenida {
+    padding-bottom: 10px;
+  }
   .main-content#home .inner-content .content .box-casos {
     padding-bottom: 10px;
   }
 
-  .main-content#about .inner-content .content #personal-info .row,
-  .main-content#about .inner-content .content #services .row {
+  .main-content#home .inner-content .content .box-index {
+    padding-bottom: 10px;
+  }
+  .inner-content .content #enlace-info .row,
+  .inner-content .content #services .row {
     margin-top: 19px;
   }
 
-  .main-content#about .inner-content .content #personal-info .row {
+  .inner-content .content #enlace-info .row {
     padding: 30px 20px 17px;
   }
 
-  .main-content#about .inner-content .content #services .row {
+  .main-content#enlace01 .inner-content .content #services .row {
     padding: 30px 20px 0;
   }
 
-  .main-content#about .inner-content .content #personal-info h5:after,
-  .main-content#about .inner-content .content #services h5:after {
+  .inner-content .content #enlace-info h5:after,
+  .inner-content .content #services h5:after {
     bottom: -10px;
     width: 20px;
     height: 3px;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary {
+  .inner-content .content #enlace-info .summary {
     margin-bottom: 16px;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary p {
+  .inner-content .content #enlace-info .summary p {
     margin-left: 20px;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary p:not(:nth-of-type(1)) {
+  .inner-content .content #enlace-info .summary p:not(:nth-of-type(1)) {
     margin-top: 15px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 3) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 3) {
     padding-right: 10px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 4) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 4) {
     padding-left: 10px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile ul li {
+  .inner-content .content #enlace-info .profile ul li {
     margin-bottom: 6px;
   }
 
-  .main-content#about .inner-content .content #personal-info .social-media {
+  .inner-content .content #enlace-info .social-media {
     margin-top: 23px;
     margin-bottom: 16px;
   }
 
-  .main-content#about .inner-content .content #services .single-service {
+  .main-content#enlace01 .inner-content .content #services .single-service {
     margin-bottom: 30px;
   }
 
-  .main-content#about .inner-content .content #services .single-service:nth-of-type(odd) {
+  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
     padding-right: 10px;
   }
 
-  .main-content#about .inner-content .content #services .single-service:nth-of-type(even) {
+  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
     padding-left: 10px;
   }
 
-  .main-content#about .inner-content .content #services .single-service ul ul {
+  .main-content#enlace01 .inner-content .content #services .single-service ul ul {
     padding: 13px 14px;
   }
 
-  .main-content#about .inner-content .content #services .single-service ul ul .service-name {
+  .main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name {
     margin-bottom: 7px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row,
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row,
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     margin-top: 20px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row,
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row,
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     padding: 30px 20px 0;
   }
 
-  .main-content#resume .inner-content .content .skills h5:after,
-  .main-content#resume .inner-content .content .education h5:after,
-  .main-content#resume .inner-content .content .experience h5:after,
-  .main-content#resume .inner-content .content .fun-facts h5:after {
+  .main-content#enlace02 .inner-content .content .skills h5:after,
+  .main-content#enlace02 .inner-content .content .education h5:after,
+  .main-content#enlace02 .inner-content .content .experience h5:after,
+  .main-content#enlace02 .inner-content .content .fun-facts h5:after {
     width: 20px;
     height: 3px;
     bottom: -10.5px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper,
-  .main-content#resume .inner-content .content .education .single-education,
-  .main-content#resume .inner-content .content .experience .single-experience {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper,
+  .main-content#enlace02 .inner-content .content .education .single-education,
+  .main-content#enlace02 .inner-content .content .experience .single-experience {
     margin-bottom: 30px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
-  .main-content#resume .inner-content .content .education .single-education:nth-of-type(odd),
-  .main-content#resume .inner-content .content .experience .single-experience:nth-of-type(odd) {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(odd) {
     padding-right: 10px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
-  .main-content#resume .inner-content .content .education .single-education:nth-of-type(even),
-  .main-content#resume .inner-content .content .experience .single-experience:nth-of-type(even) {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(even) {
     padding-left: 10px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
-  .main-content#resume .inner-content .content .education .single-education ul ul,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
     padding: 13px 14px 0;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
     padding-bottom: 20px;
   }
 
-  .main-content#resume .inner-content .content .education .single-education ul ul,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul {
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
     padding-bottom: 14px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
     height: 20px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
     background-size: 30px 30px;
   }
 
@@ -3430,41 +3605,41 @@ html.mfp-helper {
     }
   }
 
-  .main-content#resume .inner-content .content .education .single-education ul ul .education-name,
-  .main-content#resume .inner-content .content .experience .single-experience ul ul .experience-name {
+  .main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name,
+  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name {
     margin-bottom: 6px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact {
     margin-bottom: 23px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
     padding-right: 10px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
     padding-left: 10px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
     margin-bottom: 4.5px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     margin-bottom: 0.5px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     font-size: 1.728em;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper {
+  .main-content#enlace02 .inner-content .content .button-wrapper {
     margin-bottom: 50px;
   }
 
@@ -3501,59 +3676,59 @@ html.mfp-helper {
     margin: 0 10px 20px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row,
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row,
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-top: 20px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     padding: 22px 20px 17px;
   }
 
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     padding: 22px 20px 30px;
   }
 
-  .main-content#contact .inner-content .content #contact-form h5:after,
-  .main-content#contact .inner-content .content #contact-info h5:after {
+  .main-content#enlace03 .inner-content .content #enlace03-form h5:after,
+  .main-content#enlace03 .inner-content .content #enlace03-info h5:after {
     bottom: -10.5px;
     width: 20px;
     height: 3px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
     margin-bottom: 17px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(odd) {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
     padding-right: 10px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(even) {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
     padding-left: 10px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .alert {
+  .main-content#enlace03 .inner-content .content #enlace03-form .alert {
     margin-bottom: 10px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .note {
+  .main-content#enlace03 .inner-content .content #enlace03-form .note {
     margin-bottom: 24px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .note p:not(:nth-of-type(1)) {
+  .main-content#enlace03 .inner-content .content #enlace03-form .note p:not(:nth-of-type(1)) {
     margin-top: 6px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group .inner-form-group:first-child {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:first-child {
     padding-right: 5px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group .inner-form-group:last-child {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:last-child {
     padding-left: 5px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
     margin-top: 20px;
   }
 
@@ -3589,29 +3764,34 @@ html.mfp-helper {
   .main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center h5, {
     margin-top: 11px;
   }
+  .main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center h5, {
+    margin-top: 11px;
+  }
   .main-content#home .inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center h5, {
     margin-top: 11px;
   }
-
-  .main-content#about .inner-content .content #personal-info .row {
+  .main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5, {
+    margin-top: 11px;
+  }
+  .inner-content .content #enlace-info .row {
     margin-bottom: 38px;
   }
 
-  .main-content#about .inner-content .content #services .row {
+  .main-content#enlace01 .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper {
+  .main-content#enlace02 .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -3619,11 +3799,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -3636,7 +3816,13 @@ html.mfp-helper {
   .main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center h5 {
     margin: 0 !important;
   }
+  .main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center i {
+    display: none;
+  }
 
+  .main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center h5 {
+    margin: 0 !important;
+  }
   .main-content#home .inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center i {
     display: none;
   }
@@ -3644,6 +3830,14 @@ html.mfp-helper {
   .main-content#home .inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center h5 {
     margin: 0 !important;
   }
+}
+.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center i {
+  display: none;
+}
+
+.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5 {
+  margin: 0 !important;
+}
 }
 
 @media (max-width: 767px) {
@@ -3675,64 +3869,70 @@ html.mfp-helper {
   .main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center i {
     font-size: 2.5em;
   }
+  .main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center i {
+    font-size: 2.5em;
+  }
   .main-content#home .inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center i {
     font-size: 2.5em;
   }
-  .main-content#about .inner-content .content #personal-info .row,
-  .main-content#about .inner-content .content #services .row {
+  .main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center i {
+    font-size: 2.5em;
+  }
+  .inner-content .content #enlace-info .row,
+  .inner-content .content #services .row {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary p {
+  .inner-content .content #enlace-info .summary p {
     margin-left: 15px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 3) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 3) {
     padding-right: 7.5px;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 4) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 4) {
     padding-left: 7.5px;
   }
 
-  .main-content#about .inner-content .content #personal-info .button-wrapper .single-button a {
+  .inner-content .content #enlace-info .button-wrapper .single-button a {
     width: 150px;
   }
 
-  .main-content#about .inner-content .content #services .single-service:nth-of-type(odd) {
+  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 
-  .main-content#about .inner-content .content #services .single-service:nth-of-type(even) {
+  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
     padding-left: 7.5px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row,
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row,
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
-  .main-content#resume .inner-content .content .education .single-education:nth-of-type(odd),
-  .main-content#resume .inner-content .content .experience .single-experience:nth-of-type(odd) {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
-  .main-content#resume .inner-content .content .education .single-education:nth-of-type(even),
-  .main-content#resume .inner-content .content .experience .single-experience:nth-of-type(even) {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(even) {
     padding-left: 7.5px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
     height: 15px;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
     background-size: 25px 25px;
   }
 
@@ -3763,28 +3963,28 @@ html.mfp-helper {
     }
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
     padding-right: 7.5px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
     padding-left: 7.5px;
     padding-right: 7.5px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
     padding-left: 7.5px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
     margin-bottom: 0;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     margin-bottom: -3px;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper a {
+  .main-content#enlace02 .inner-content .content .button-wrapper a {
     width: 190px;
   }
 
@@ -3811,18 +4011,18 @@ html.mfp-helper {
     margin: 0 7.5px 15px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row,
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row,
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 23px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(odd) {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(even) {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
     padding-left: 7.5px;
   }
 }
@@ -3857,28 +4057,34 @@ html.mfp-helper {
   .main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center h5, {
     margin-top: 11px;
   }
+  .main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center h5, {
+    margin-top: 11px;
+  }
   .main-content#home .inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center h5, {
     margin-top: 11px;
   }
-  .main-content#about .inner-content .content #personal-info .row {
+  .main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5, {
+    margin-top: 11px;
+  }
+  .inner-content .content #enlace-info .row {
     margin-bottom: 38px;
   }
 
-  .main-content#about .inner-content .content #services .row {
+  .main-content#enlace01 .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper {
+  .main-content#enlace02 .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -3886,11 +4092,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -3957,11 +4163,36 @@ html.mfp-helper {
     transform: translateY(-50%);
   }
 
-  .main-content#home .inner-content .content .box-casos {
+  .main-content#home .inner-content .content .box-bienvenida {
     width: 100%;
     height: 25%;
   }
 
+  .main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center {
+    display: block;
+    height: 100%;
+    text-align: center;
+  }
+
+  .main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center i {
+    display: none;
+  }
+
+  .main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center h5 {
+    margin: 0 !important;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .main-content#home .inner-content .content .box-casos {
+    width: 100%;
+    height: 25%;
+  }
 
   .main-content#home .inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center i {
     display: none;
@@ -3977,7 +4208,27 @@ html.mfp-helper {
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
   }
-  .main-content#about .inner-content .content #personal-info .profile-picture {
+
+  .main-content#home .inner-content .content .box-index {
+    width: 100%;
+    height: 25%;
+  }
+  .main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center i {
+    display: none;
+  }
+
+  .main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5 {
+    margin: 0 !important;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .inner-content .content #enlace-info .profile-picture {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
@@ -3989,88 +4240,88 @@ html.mfp-helper {
     margin-bottom: 24px;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary {
+  .inner-content .content #enlace-info .summary {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .main-content#about .inner-content .content #personal-info .summary p {
+  .inner-content .content #enlace-info .summary p {
     margin-left: 0;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 3),
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 4) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 3),
+  .inner-content .content #enlace-info .profile:nth-child(2n + 4) {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 3) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 3) {
     padding-right: 0;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 4) {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 4) {
     padding-left: 0;
   }
 
-  .main-content#about .inner-content .content #personal-info .profile:nth-child(2n + 3) ul li:last-child {
+  .inner-content .content #enlace-info .profile:nth-child(2n + 3) ul li:last-child {
     margin-bottom: 6px;
   }
 
-  .main-content#about .inner-content .content #personal-info .button-wrapper .single-button {
+  .inner-content .content #enlace-info .button-wrapper .single-button {
     display: block;
   }
 
-  .main-content#about .inner-content .content #personal-info .button-wrapper .single-button a {
+  .inner-content .content #enlace-info .button-wrapper .single-button a {
     width: 100%;
     margin-right: 0;
   }
 
-  .main-content#about .inner-content .content #services .single-service {
+  .main-content#enlace01 .inner-content .content #services .single-service {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .main-content#about .inner-content .content #services .single-service:nth-of-type(odd) {
+  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
     padding-right: 0;
   }
 
-  .main-content#about .inner-content .content #services .single-service:nth-of-type(even) {
+  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
     padding-left: 0;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper,
-  .main-content#resume .inner-content .content .education .single-education,
-  .main-content#resume .inner-content .content .experience .single-experience,
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper,
+  .main-content#enlace02 .inner-content .content .education .single-education,
+  .main-content#enlace02 .inner-content .content .experience .single-experience,
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
-  .main-content#resume .inner-content .content .education .single-education:nth-of-type(odd),
-  .main-content#resume .inner-content .content .experience .single-experience:nth-of-type(odd),
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1),
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-of-type(even) {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(odd),
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1),
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-of-type(even) {
     padding-right: 0;
   }
 
-  .main-content#resume .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
-  .main-content#resume .inner-content .content .education .single-education:nth-of-type(even),
-  .main-content#resume .inner-content .content .experience .single-experience:nth-of-type(even),
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-of-type(even),
-  .main-content#resume .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-of-type(even),
+  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
     padding-left: 0;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper a {
+  .main-content#enlace02 .inner-content .content .button-wrapper a {
     width: 100%;
   }
 
@@ -4090,36 +4341,36 @@ html.mfp-helper {
     max-width: calc(100% - 15px);
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(odd) {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
     padding-right: 0;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li:nth-of-type(even) {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
     padding-left: 0;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group .inner-form-group {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group {
     width: 100%;
     float: none;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group .inner-form-group:first-child {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:first-child {
     padding-right: 0;
     margin-bottom: 10px;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group .inner-form-group:last-child {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:last-child {
     padding-left: 0;
   }
 
-  .main-content#contact .inner-content .content #contact-form .form-wrapper .form-group button[type="submit"] {
+  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
     display: block;
     width: 100%;
     margin-top: 30px;
@@ -4153,25 +4404,25 @@ html.mfp-helper {
     height: calc(100% - ((30px * 3) + 15px + (1.728em + 1.2em) - 1px));
   }
 
-  .main-content#about .inner-content .content #personal-info .row {
+  .inner-content .content #enlace-info .row {
     margin-bottom: 38px;
   }
 
-  .main-content#about .inner-content .content #services .row {
+  .main-content#enlace01 .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper {
+  .main-content#enlace02 .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -4179,11 +4430,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -4241,23 +4492,23 @@ html.mfp-helper {
     height: calc(100% - ((50px * 3) + 15px + (1.424em + 1.125em) - 4px));
   }
 
-  .main-content#about .inner-content .content #personal-info h5:after,
-  .main-content#about .inner-content .content #services h5:after {
+  .inner-content .content #enlace-info h5:after,
+  .main-content#enlace01 .inner-content .content #services h5:after {
     bottom: -9px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row,
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row,
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     padding-top: 24px;
   }
 
-  .main-content#contact .inner-content .content #contact-info .list-contact-info > ul > li {
+  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
     margin-bottom: 18px;
   }
 }
 
 @media (max-width: 450px) {
-  .main-content#about .inner-content .content #personal-info .profile-picture {
+  .inner-content .content #enlace-info .profile-picture {
     height: 400px;
   }
 }
@@ -4281,25 +4532,25 @@ html.mfp-helper {
     height: calc(100% - ((30px * 3) + 15px + (1.424em + 1.125em) - 4px));
   }
 
-  .main-content#about .inner-content .content #personal-info .row {
+  .inner-content .content #enlace-info .row {
     margin-bottom: 38px;
   }
 
-  .main-content#about .inner-content .content #services .row {
+  .main-content#enlace01 .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper {
+  .main-content#enlace02 .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -4307,11 +4558,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -4335,25 +4586,25 @@ html.mfp-helper {
     height: calc(100% - ((20px * 3) + 15px + (1.424em + 1.125em) - 4px));
   }
 
-  .main-content#about .inner-content .content #personal-info .row {
+  .inner-content .content #enlace-info .row {
     margin-bottom: 38px;
   }
 
-  .main-content#about .inner-content .content #services .row {
+  .main-content#enlace01 .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .skills .row,
-  .main-content#resume .inner-content .content .education .row,
-  .main-content#resume .inner-content .content .experience .row {
+  .main-content#enlace02 .inner-content .content .skills .row,
+  .main-content#enlace02 .inner-content .content .education .row,
+  .main-content#enlace02 .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#resume .inner-content .content .fun-facts .row {
+  .main-content#enlace02 .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#resume .inner-content .content .button-wrapper {
+  .main-content#enlace02 .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -4361,11 +4612,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#contact .inner-content .content #contact-info > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#contact .inner-content .content #contact-form > .row {
+  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
     margin-bottom: 40px;
   }
 }
