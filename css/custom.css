@@ -640,6 +640,29 @@ html.mfp-helper {
   -webkit-align-items: center;
   align-items: center;
 }
+.casos-hanging {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
 .menu-hanging {
   position: absolute;
   top: 60px;
@@ -666,10 +689,14 @@ html.mfp-helper {
 .main-content .hanging .logo-hanging i {
   font-size: 30px;
 }
-
+.main-content .hanging .casos-hanging i {
+  font-size: 30px;
+}
 .main-content .hanging .menu-hanging i {
   font-size: 30px;
 }
+
+
 
 .main-content .hanging .text-hanging {
   position: absolute;
@@ -1371,7 +1398,7 @@ html.mfp-helper {
   transition: 0.6s ease-in-out;
 }
 
-.main-content#enlace01 .inner-content .content .button-wrapper a > .front {
+.inner-content .content .button-wrapper a > .front {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1379,7 +1406,7 @@ html.mfp-helper {
   transform: scale(1);
 }
 
-.main-content#enlace01 .inner-content .content .button-wrapper a > .back {
+.inner-content .content .button-wrapper a > .back {
   -webkit-transform: scale(4);
   -moz-transform: scale(4);
   -ms-transform: scale(4);
@@ -1393,7 +1420,7 @@ html.mfp-helper {
   margin-right: 13px;
 }
 
-.main-content#enlace01 .inner-content .content .button-wrapper a:hover > .front {
+.inner-content .content .button-wrapper a:hover > .front {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -1401,7 +1428,7 @@ html.mfp-helper {
   transform: scale(0);
 }
 
-.main-content#enlace01 .inner-content .content .button-wrapper a:hover > .back {
+.inner-content .content .button-wrapper a:hover > .back {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1410,34 +1437,34 @@ html.mfp-helper {
   opacity: 1;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service {
+.inner-content .content #services .single-service {
   margin-bottom: 40px;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
+.inner-content .content #services .single-service:nth-of-type(odd) {
   padding-right: 15px;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
+.inner-content .content #services .single-service:nth-of-type(even) {
   padding-left: 15px;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service ul .service-number {
+.inner-content .content #services .single-service ul .service-number {
   padding: 12px 14px;
   text-align: center;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service ul .service-number .first-word {
+.inner-content .content #services .single-service ul .service-number .first-word {
   margin-right: 1px;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service ul .service-number .second-word {
+.inner-content .content #services .single-service ul .service-number .second-word {
   font-weight: 700;
   text-transform: uppercase;
   margin-left: 1px;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service > ul {
+.inner-content .content #services .single-service > ul {
   border-width: 1px;
   border-style: solid;
   -webkit-border-radius: 5px;
@@ -1446,15 +1473,15 @@ html.mfp-helper {
   height: 100%;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service ul ul {
+.inner-content .content #services .single-service ul ul {
   padding: 24px 14px;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name {
+.inner-content .content #services .single-service ul ul .service-name {
   margin-bottom: 16px;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name i {
+.inner-content .content #services .single-service ul ul .service-name i {
   margin-right: 13px;
 }
 
@@ -1462,32 +1489,32 @@ html.mfp-helper {
 /* [ 3.1.4. Main Content - enlace02 ]                                */
 /*=================================================================*/
 
-.main-content#enlace02 .inner-content .content .skills .row,
-.main-content#enlace02 .inner-content .content .education .row,
-.main-content#enlace02 .inner-content .content .experience .row,
-.main-content#enlace02 .inner-content .content .fun-facts .row {
+.inner-content .content .skills .row,
+.inner-content .content .education .row,
+.inner-content .content .experience .row,
+.inner-content .content .fun-facts .row {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   margin-top: 28px;
 }
 
-.main-content#enlace02 .inner-content .content .skills .row,
-.main-content#enlace02 .inner-content .content .education .row,
-.main-content#enlace02 .inner-content .content .experience .row {
+.inner-content .content .skills .row,
+.inner-content .content .education .row,
+.inner-content .content .experience .row {
   padding: 40px 30px 0;
   margin-bottom: 58px;
 }
 
-.main-content#enlace02 .inner-content .content .fun-facts .row {
+.inner-content .content .fun-facts .row {
   padding: 40px 30px 0;
   margin-bottom: 60px;
 }
 
-.main-content#enlace02 .inner-content .content .skills h5:after,
-.main-content#enlace02 .inner-content .content .education h5:after,
-.main-content#enlace02 .inner-content .content .experience h5:after,
-.main-content#enlace02 .inner-content .content .fun-facts h5:after {
+.inner-content .content .skills h5:after,
+.inner-content .content .education h5:after,
+.inner-content .content .experience h5:after,
+.inner-content .content .fun-facts h5:after {
   content: "";
   display: block;
   position: absolute;
@@ -1500,38 +1527,38 @@ html.mfp-helper {
   border-radius: 5px;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper,
-.main-content#enlace02 .inner-content .content .education .single-education,
-.main-content#enlace02 .inner-content .content .experience .single-experience {
+.inner-content .content .skills .single-skills-wrapper,
+.inner-content .content .education .single-education,
+.inner-content .content .experience .single-experience {
   margin-bottom: 40px;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper .skills-heading,
-.main-content#enlace02 .inner-content .content .education .single-education .education-when-where,
-.main-content#enlace02 .inner-content .content .experience .single-experience .experience-when-where {
+.inner-content .content .skills .single-skills-wrapper .skills-heading,
+.inner-content .content .education .single-education .education-when-where,
+.inner-content .content .experience .single-experience .experience-when-where {
   padding: 12px 14px;
   text-align: center;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper .skills-heading .first-word,
-.main-content#enlace02 .inner-content .content .education .single-education .education-when-where .when,
-.main-content#enlace02 .inner-content .content .experience .single-experience .experience-when-where .when {
+.inner-content .content .skills .single-skills-wrapper .skills-heading .first-word,
+.inner-content .content .education .single-education .education-when-where .when,
+.inner-content .content .experience .single-experience .experience-when-where .when {
   margin-right: 1px;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper .skills-heading .second-word,
-.main-content#enlace02 .inner-content .content .education .single-education .education-when-where .where,
-.main-content#enlace02 .inner-content .content .experience .single-experience .experience-when-where .where {
+.inner-content .content .skills .single-skills-wrapper .skills-heading .second-word,
+.inner-content .content .education .single-education .education-when-where .where,
+.inner-content .content .experience .single-experience .experience-when-where .where {
   font-weight: 700;
   margin-left: 1px;
   text-transform: uppercase;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper > ul,
-.main-content#enlace02 .inner-content .content .education .single-education > ul,
-.main-content#enlace02 .inner-content .content .experience .single-experience > ul {
+.inner-content .content .skills .single-skills-wrapper > ul,
+.inner-content .content .education .single-education > ul,
+.inner-content .content .experience .single-experience > ul {
   border-width: 1px;
   border-style: solid;
   -webkit-border-radius: 5px;
@@ -1540,28 +1567,28 @@ html.mfp-helper {
   height: 100%;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
-.main-content#enlace02 .inner-content .content .education .single-education ul ul,
-.main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
+.inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
+.inner-content .content .education .single-education ul ul,
+.inner-content .content .experience .single-experience ul ul {
   padding: 23px 14px 0;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
+.inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
   padding-bottom: 30px;
 }
 
-.main-content#enlace02 .inner-content .content .education .single-education ul ul,
-.main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
+.inner-content .content .education .single-education ul ul,
+.inner-content .content .experience .single-experience ul ul {
   padding-bottom: 23px;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill ul {
   position: relative;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name,
-.main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name,
-.main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name,
+.inner-content .content .education .single-education ul ul .education-name,
+.inner-content .content .experience .single-experience ul ul .experience-name {
   word-wrap: break-word;
   -ms-word-break: break-all;
   word-break: break-all;
@@ -1569,30 +1596,30 @@ html.mfp-helper {
   overflow: hidden;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name {
   padding-right: 40px;
   margin-bottom: 7px;
 }
 
-.main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name,
-.main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name {
+.inner-content .content .education .single-education ul ul .education-name,
+.inner-content .content .experience .single-experience ul ul .experience-name {
   margin-bottom: 16px;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name i,
-.main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name i,
-.main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name i,
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-body i {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name i,
+.inner-content .content .education .single-education ul ul .education-name i,
+.inner-content .content .experience .single-experience ul ul .experience-name i,
+.inner-content .content .fun-facts .single-fun-fact .fun-fact-body i {
   margin-right: 13px;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .percentage {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill ul .percentage {
   position: absolute;
   top: 0;
   right: 0;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
   height: 30px;
   width: 100%;
   -webkit-border-radius: 5px;
@@ -1604,7 +1631,7 @@ html.mfp-helper {
   overflow: hidden;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
   background-position: 0 0;
   background-size: 40px 40px;
   display: block;
@@ -1650,37 +1677,37 @@ html.mfp-helper {
   }
 }
 
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact {
+.inner-content .content .fun-facts .single-fun-fact {
   text-align: center;
   margin-bottom: 33px;
 }
 
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
+.inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
   padding-right: 15px;
 }
 
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
+.inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+.inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
   padding-left: 15px;
 }
 
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+.inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
   margin-bottom: 11px;
 }
 
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+.inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
   margin-bottom: 6px;
 }
 
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+.inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
   font-size: 2.369em;
 }
 
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-body {
+.inner-content .content .fun-facts .single-fun-fact .fun-fact-body {
   word-wrap: break-word;
   -ms-word-break: break-all;
   word-break: break-all;
@@ -1688,12 +1715,12 @@ html.mfp-helper {
   overflow: hidden;
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper {
+.inner-content .content .button-wrapper {
   line-height: 1;
   margin-bottom: 58px;
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a {
+.inner-content .content .button-wrapper a {
   display: inline-block;
   text-transform: capitalize;
   border-width: 1px;
@@ -1714,12 +1741,12 @@ html.mfp-helper {
   transition: 0.4s ease-in-out;
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a:last-of-type {
+.inner-content .content .button-wrapper a:last-of-type {
   margin-right: 0;
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a > .front,
-.main-content#enlace02 .inner-content .content .button-wrapper a > .back {
+.inner-content .content .button-wrapper a > .front,
+.inner-content .content .button-wrapper a > .back {
   width: 100%;
   height: 100%;
   display: block;
@@ -1732,7 +1759,7 @@ html.mfp-helper {
   transition: 0.6s ease-in-out;
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a > .front {
+.inner-content .content .button-wrapper a > .front {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -1740,7 +1767,7 @@ html.mfp-helper {
   transform: scale(1);
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a > .back {
+.inner-content .content .button-wrapper a > .back {
   -webkit-transform: scale(4);
   -moz-transform: scale(4);
   -ms-transform: scale(4);
@@ -1749,12 +1776,12 @@ html.mfp-helper {
   opacity: 0;
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a > .front > i,
-.main-content#enlace02 .inner-content .content .button-wrapper a > .back > i {
+.inner-content .content .button-wrapper a > .front > i,
+.inner-content .content .button-wrapper a > .back > i {
   margin-right: 13px;
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a:hover > .front {
+.inner-content .content .button-wrapper a:hover > .front {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -1762,7 +1789,7 @@ html.mfp-helper {
   transform: scale(0);
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a:hover > .back {
+.inner-content .content .button-wrapper a:hover > .back {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -2021,26 +2048,26 @@ html.mfp-helper {
 /* [ 3.1.6. Main Content - enlace03 ]                               */
 /*=================================================================*/
 
-.main-content#enlace03 .inner-content .content #enlace03-info > .row,
-.main-content#enlace03 .inner-content .content #enlace03-form > .row {
+.inner-content .content #enlace-info > .row,
+.inner-content .content #enlace-form > .row {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   margin-top: 28px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info > .row {
+.inner-content .content #enlace-info > .row {
   margin-bottom: 58px;
   padding: 34px 30px 27px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form > .row {
+.inner-content .content #enlace-form > .row {
   margin-bottom: 60px;
   padding: 33px 30px 40px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info h5:after,
-.main-content#enlace03 .inner-content .content #enlace03-form h5:after {
+.inner-content .content #enlace-info h5:after,
+.inner-content .content #enlace-form h5:after {
   content: "";
   display: block;
   position: absolute;
@@ -2053,33 +2080,33 @@ html.mfp-helper {
   border-radius: 5px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
+.inner-content .content #enlace-info .list-enlace-info > ul > li {
   margin-bottom: 28px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
+.inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(odd) {
   padding-right: 15px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
+.inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(even) {
   padding-left: 15px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:last-of-type {
+.inner-content .content #enlace-info .list-enlace-info > ul > li:last-of-type {
   margin-bottom: 0;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .enlace03-info-name {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .enlace-info-name {
   display: block;
   text-transform: capitalize;
   margin-bottom: 2px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .icon-of-value {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .icon-of-value {
   margin-right: 11px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .value {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .value {
   word-wrap: break-word;
   -ms-word-break: break-all;
   word-break: break-all;
@@ -2087,18 +2114,18 @@ html.mfp-helper {
   overflow: hidden;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media {
   line-height: 1;
   margin-top: 8px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media li {
   display: inline-block;
   margin-right: 11px;
   margin-bottom: 12px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media li a {
   display: inline-block;
   position: relative;
   overflow: hidden;
@@ -2123,8 +2150,8 @@ html.mfp-helper {
   transition: 0.4s ease-in-out;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a > .front,
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a > .back {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media li a > .front,
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media li a > .back {
   width: 100%;
   height: 100%;
   display: block;
@@ -2137,7 +2164,7 @@ html.mfp-helper {
   transition: 0.6s ease-in-out;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a > .front {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media li a > .front {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -2145,7 +2172,7 @@ html.mfp-helper {
   transform: scale(1);
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a > .back {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media li a > .back {
   -webkit-transform: scale(4);
   -moz-transform: scale(4);
   -ms-transform: scale(4);
@@ -2154,7 +2181,7 @@ html.mfp-helper {
   opacity: 0;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a:hover > .front {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media li a:hover > .front {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -2162,7 +2189,7 @@ html.mfp-helper {
   transform: scale(0);
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a:hover > .back {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media li a:hover > .back {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -2171,57 +2198,57 @@ html.mfp-helper {
   opacity: 1;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .alert {
+.inner-content .content #enlace-form .alert {
   display: none;
   padding: 7px 14px;
   margin-bottom: 10px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .note {
+.inner-content .content #enlace-form .note {
   margin-bottom: 33px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .note p {
+.inner-content .content #enlace-form .note p {
   margin-bottom: 0;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .note p:not(:nth-of-type(1)) {
+.inner-content .content #enlace-form .note p:not(:nth-of-type(1)) {
   margin-top: 16px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group {
+.inner-content .content #enlace-form .form-wrapper .form-group {
   margin-bottom: 10px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group:last-child {
+.inner-content .content #enlace-form .form-wrapper .form-group:last-child {
   margin-bottom: 0;
   line-height: 1;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group {
+.inner-content .content #enlace-form .form-wrapper .form-group .inner-form-group {
   width: 50%;
   float: left;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:first-child {
+.inner-content .content #enlace-form .form-wrapper .form-group .inner-form-group:first-child {
   padding-right: 5px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:last-child {
+.inner-content .content #enlace-form .form-wrapper .form-group .inner-form-group:last-child {
   padding-left: 5px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .form-control {
+.inner-content .content #enlace-form .form-wrapper .form-group .form-control {
   font-size: 1em;
   padding: 7px 14px 8px;
   border: 0;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group input.form-control {
+.inner-content .content #enlace-form .form-wrapper .form-group input.form-control {
   height: 40px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group textarea.form-control {
+.inner-content .content #enlace-form .form-wrapper .form-group textarea.form-control {
   height: 150px;
   -webkit-transition: 0.4s ease-in-out;
   -moz-transition: 0.4s ease-in-out;
@@ -2229,13 +2256,13 @@ html.mfp-helper {
   transition: 0.4s ease-in-out;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .form-control:focus {
+.inner-content .content #enlace-form .form-wrapper .form-group .form-control:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] {
   display: inline-block;
   text-transform: capitalize;
   position: relative;
@@ -2257,8 +2284,8 @@ html.mfp-helper {
   transition: 0.4s ease-in-out;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .front,
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .back {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] > .front,
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] > .back {
   width: 100%;
   height: 100%;
   display: block;
@@ -2271,12 +2298,12 @@ html.mfp-helper {
   transition: 0.6s ease-in-out;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .front > i,
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .back > i {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] > .front > i,
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] > .back > i {
   margin-right: 10px;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .front {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] > .front {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -2284,7 +2311,7 @@ html.mfp-helper {
   transform: scale(1);
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .back {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] > .back {
   -webkit-transform: scale(4);
   -moz-transform: scale(4);
   -ms-transform: scale(4);
@@ -2293,7 +2320,7 @@ html.mfp-helper {
   opacity: 0;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"]:hover > .front {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"]:hover > .front {
   -webkit-transform: scale(0);
   -moz-transform: scale(0);
   -ms-transform: scale(0);
@@ -2301,7 +2328,7 @@ html.mfp-helper {
   transform: scale(0);
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"]:hover > .back {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"]:hover > .back {
   -webkit-transform: scale(1);
   -moz-transform: scale(1);
   -ms-transform: scale(1);
@@ -2310,7 +2337,7 @@ html.mfp-helper {
   opacity: 1;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"]:focus {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"]:focus {
   outline: 0;
 }
 
@@ -2375,38 +2402,38 @@ html.mfp-helper {
     margin-bottom: 13px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service ul ul {
+  .inner-content .content #services .single-service ul ul {
     padding: 23px 14px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name {
+  .inner-content .content #services .single-service ul ul .service-name {
     margin-bottom: 15px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
+  .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
+  .inner-content .content .education .single-education ul ul,
+  .inner-content .content .experience .single-experience ul ul {
     padding: 22px 14px 0;
   }
 
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
+  .inner-content .content .education .single-education ul ul,
+  .inner-content .content .experience .single-experience ul ul {
     padding-bottom: 23px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
     margin-bottom: 8px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     margin-bottom: 2px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     font-size: 2.827em;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     padding: 33px 30px 27px;
   }
 }
@@ -2439,7 +2466,16 @@ html.mfp-helper {
     font-size: 40px;
   }
 
+  .main-content .hanging .casos-hanging {
+    height: 80px;
+  }
+
+  .main-content .hanging .casos-hanging i {
+    font-size: 40px;
+  }
+
   .main-content .hanging .menu-hanging {
+    top: 80px;
     height: 80px;
   }
 
@@ -2533,91 +2569,91 @@ html.mfp-helper {
     margin-bottom: 36px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service {
+  .inner-content .content #services .single-service {
     margin-bottom: 50px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
+  .inner-content .content #services .single-service:nth-of-type(odd) {
     padding-right: 20px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
+  .inner-content .content #services .single-service:nth-of-type(even) {
     padding-left: 20px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service ul ul {
+  .inner-content .content #services .single-service ul ul {
     padding: 32px 14px 33px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name {
+  .inner-content .content #services .single-service ul ul .service-name {
     margin-bottom: 24px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row,
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row,
+  .inner-content .content .fun-facts .row {
     margin-top: 38px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row {
     padding: 50px 40px 0;
     margin-bottom: 78px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .fun-facts .row {
     padding: 50px 40px 0;
     margin-bottom: 80px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills h5:after,
-  .main-content#enlace02 .inner-content .content .education h5:after,
-  .main-content#enlace02 .inner-content .content .experience h5:after,
-  .main-content#enlace02 .inner-content .content .fun-facts h5:after {
+  .inner-content .content .skills h5:after,
+  .inner-content .content .education h5:after,
+  .inner-content .content .experience h5:after,
+  .inner-content .content .fun-facts h5:after {
     width: 40px;
     bottom: -19px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper,
-  .main-content#enlace02 .inner-content .content .education .single-education,
-  .main-content#enlace02 .inner-content .content .experience .single-experience {
+  .inner-content .content .skills .single-skills-wrapper,
+  .inner-content .content .education .single-education,
+  .inner-content .content .experience .single-experience {
     margin-bottom: 50px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(odd) {
+  .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
+  .inner-content .content .education .single-education:nth-of-type(odd),
+  .inner-content .content .experience .single-experience:nth-of-type(odd) {
     padding-right: 20px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(even) {
+  .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
+  .inner-content .content .education .single-education:nth-of-type(even),
+  .inner-content .content .experience .single-experience:nth-of-type(even) {
     padding-left: 20px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
+  .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
+  .inner-content .content .education .single-education ul ul,
+  .inner-content .content .experience .single-experience ul ul {
     padding: 32px 14px 0;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
+  .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
     padding-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
+  .inner-content .content .education .single-education ul ul,
+  .inner-content .content .experience .single-experience ul ul {
     padding-bottom: 32px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+  .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
     height: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+  .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
     background-size: 50px 50px;
   }
 
@@ -2648,37 +2684,37 @@ html.mfp-helper {
     }
   }
 
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name {
+  .inner-content .content .education .single-education ul ul .education-name,
+  .inner-content .content .experience .single-experience ul ul .experience-name {
     margin-bottom: 24px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact {
+  .inner-content .content .fun-facts .single-fun-fact {
     margin-bottom: 43px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
     padding-right: 20px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
     padding-left: 20px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
     margin-bottom: 15px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     margin-bottom: 11px;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper {
+  .inner-content .content .button-wrapper {
     margin-bottom: 79px;
   }
 
@@ -2716,61 +2752,61 @@ html.mfp-helper {
     margin: 0 20px 40px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row,
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-info > .row,
+  .inner-content .content #enlace-form > .row {
     margin-top: 38px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     margin-bottom: 78px;
     padding: 43px 40px 37px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-form > .row {
     margin-bottom: 80px;
     padding: 42px 40px 50px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form h5:after,
-  .main-content#enlace03 .inner-content .content #enlace03-info h5:after {
+  .inner-content .content #enlace-form h5:after,
+  .inner-content .content #enlace-info h5:after {
     bottom: -19px;
     width: 40px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(odd) {
     padding-right: 20px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(even) {
     padding-left: 20px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .alert {
+  .inner-content .content #enlace-form .alert {
     padding: 11px 14px;
     margin-bottom: 10px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .note {
+  .inner-content .content #enlace-form .note {
     margin-bottom: 43px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .note p:not(:nth-of-type(1)) {
+  .inner-content .content #enlace-form .note p:not(:nth-of-type(1)) {
     margin-top: 20px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group input.form-control {
+  .inner-content .content #enlace-form .form-wrapper .form-group input.form-control {
     height: 50px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group textarea.form-control {
+  .inner-content .content #enlace-form .form-wrapper .form-group textarea.form-control {
     height: 158px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
+  .inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] {
     width: 170px;
     margin-top: 40px;
   }
@@ -2809,11 +2845,11 @@ html.mfp-helper {
     height: calc(100% - ((80px * 3) + 15px + (3.375em + 1.5em) - 6px));
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     font-size: 3.375em;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .alert {
+  .inner-content .content #enlace-form .alert {
     padding: 10px 14px;
   }
 }
@@ -2858,6 +2894,14 @@ html.mfp-helper {
   }
 
   .main-content .hanging .logo-hanging i {
+    font-size: 25px;
+  }
+
+  .main-content .hanging .casos-hanging {
+    height: 50px;
+  }
+
+  .main-content .hanging .casos-hanging i {
     font-size: 25px;
   }
 
@@ -2952,91 +2996,91 @@ html.mfp-helper {
     margin-bottom: 21px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service {
+  .inner-content .content #services .single-service {
     margin-bottom: 35px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
+  .inner-content .content #services .single-service:nth-of-type(odd) {
     padding-right: 12.5px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
+  .inner-content .content #services .single-service:nth-of-type(even) {
     padding-left: 12.5px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service ul ul {
+  .inner-content .content #services .single-service ul ul {
     padding: 18px 14px 19px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name {
+  .inner-content .content #services .single-service ul ul .service-name {
     margin-bottom: 11px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row,
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row,
+  .inner-content .content .fun-facts .row {
     margin-top: 23px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row {
     padding: 35px 25px 0;
     margin-bottom: 48px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .fun-facts .row {
     padding: 35px 25px 0;
     margin-bottom: 50px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills h5:after,
-  .main-content#enlace02 .inner-content .content .education h5:after,
-  .main-content#enlace02 .inner-content .content .experience h5:after,
-  .main-content#enlace02 .inner-content .content .fun-facts h5:after {
+  .inner-content .content .skills h5:after,
+  .inner-content .content .education h5:after,
+  .inner-content .content .experience h5:after,
+  .inner-content .content .fun-facts h5:after {
     width: 25px;
     bottom: -11.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper,
-  .main-content#enlace02 .inner-content .content .education .single-education,
-  .main-content#enlace02 .inner-content .content .experience .single-experience {
+  .inner-content .content .skills .single-skills-wrapper,
+  .inner-content .content .education .single-education,
+  .inner-content .content .experience .single-experience {
     margin-bottom: 35px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(odd) {
+  .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
+  .inner-content .content .education .single-education:nth-of-type(odd),
+  .inner-content .content .experience .single-experience:nth-of-type(odd) {
     padding-right: 12.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(even) {
+  .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
+  .inner-content .content .education .single-education:nth-of-type(even),
+  .inner-content .content .experience .single-experience:nth-of-type(even) {
     padding-left: 12.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
+  .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
+  .inner-content .content .education .single-education ul ul,
+  .inner-content .content .experience .single-experience ul ul {
     padding: 18px 14px 0;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
+  .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
     padding-bottom: 25px;
   }
 
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
+  .inner-content .content .education .single-education ul ul,
+  .inner-content .content .experience .single-experience ul ul {
     padding-bottom: 19px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+  .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
     height: 25px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+  .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
     background-size: 35px 35px;
   }
 
@@ -3067,41 +3111,41 @@ html.mfp-helper {
     }
   }
 
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name {
+  .inner-content .content .education .single-education ul ul .education-name,
+  .inner-content .content .experience .single-experience ul ul .experience-name {
     margin-bottom: 11px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact {
+  .inner-content .content .fun-facts .single-fun-fact {
     margin-bottom: 28px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
     padding-right: 12.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
     padding-left: 12.5px;
     padding-right: 12.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
     padding-left: 12.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
     margin-bottom: 8.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     margin-bottom: 5.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     font-size: 1.953em;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper {
+  .inner-content .content .button-wrapper {
     margin-bottom: 49px;
   }
 
@@ -3139,48 +3183,48 @@ html.mfp-helper {
     margin: 0 12.5px 25px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row,
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-info > .row,
+  .inner-content .content #enlace-form > .row {
     margin-top: 23px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     margin-bottom: 48px;
     padding: 27px 25px 21px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-form > .row {
     margin-bottom: 50px;
     padding: 27px 25px 35px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form h5:after,
-  .main-content#enlace03 .inner-content .content #enlace03-info h5:after {
+  .inner-content .content #enlace-form h5:after,
+  .inner-content .content #enlace-info h5:after {
     bottom: -11.5px;
     width: 25px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li {
     margin-bottom: 22px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(odd) {
     padding-right: 12.5px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(even) {
     padding-left: 12.5px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .note {
+  .inner-content .content #enlace-form .note {
     margin-bottom: 29px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .note p:not(:nth-of-type(1)) {
+  .inner-content .content #enlace-form .note p:not(:nth-of-type(1)) {
     margin-top: 10.5px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
+  .inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] {
     margin-top: 25px;
   }
 }
@@ -3225,17 +3269,17 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper {
+  .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -3243,11 +3287,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -3311,21 +3355,21 @@ html.mfp-helper {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .row {
+  .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper {
+  .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -3333,11 +3377,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -3385,8 +3429,16 @@ html.mfp-helper {
     font-size: 20px;
   }
 
+  .main-content .hanging .casos-hanging {
+    height: 40px;
+  }
+
+  .main-content .hanging .casos-hanging i {
+    font-size: 20px;
+  }
+
   .main-content .hanging .menu-hanging {
-    top: 45px;
+    top: 40px;
     height: 40px;
   }
 
@@ -3454,7 +3506,7 @@ html.mfp-helper {
     padding: 30px 20px 17px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .row {
+  .inner-content .content #services .row {
     padding: 30px 20px 0;
   }
 
@@ -3494,87 +3546,87 @@ html.mfp-helper {
     margin-bottom: 16px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service {
+  .inner-content .content #services .single-service {
     margin-bottom: 30px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
+  .inner-content .content #services .single-service:nth-of-type(odd) {
     padding-right: 10px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
+  .inner-content .content #services .single-service:nth-of-type(even) {
     padding-left: 10px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service ul ul {
+  .inner-content .content #services .single-service ul ul {
     padding: 13px 14px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name {
+  .inner-content .content #services .single-service ul ul .service-name {
     margin-bottom: 7px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row,
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row,
+  .inner-content .content .fun-facts .row {
     margin-top: 20px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row,
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row,
+  .inner-content .content .fun-facts .row {
     padding: 30px 20px 0;
   }
 
-  .main-content#enlace02 .inner-content .content .skills h5:after,
-  .main-content#enlace02 .inner-content .content .education h5:after,
-  .main-content#enlace02 .inner-content .content .experience h5:after,
-  .main-content#enlace02 .inner-content .content .fun-facts h5:after {
+  .inner-content .content .skills h5:after,
+  .inner-content .content .education h5:after,
+  .inner-content .content .experience h5:after,
+  .inner-content .content .fun-facts h5:after {
     width: 20px;
     height: 3px;
     bottom: -10.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper,
-  .main-content#enlace02 .inner-content .content .education .single-education,
-  .main-content#enlace02 .inner-content .content .experience .single-experience {
+  .inner-content .content .skills .single-skills-wrapper,
+  .inner-content .content .education .single-education,
+  .inner-content .content .experience .single-experience {
     margin-bottom: 30px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(odd) {
+  .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
+  .inner-content .content .education .single-education:nth-of-type(odd),
+  .inner-content .content .experience .single-experience:nth-of-type(odd) {
     padding-right: 10px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(even) {
+  .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
+  .inner-content .content .education .single-education:nth-of-type(even),
+  .inner-content .content .experience .single-experience:nth-of-type(even) {
     padding-left: 10px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
+  .inner-content .content .skills .single-skills-wrapper ul ul .single-skill,
+  .inner-content .content .education .single-education ul ul,
+  .inner-content .content .experience .single-experience ul ul {
     padding: 13px 14px 0;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
+  .inner-content .content .skills .single-skills-wrapper ul ul .single-skill:last-of-type {
     padding-bottom: 20px;
   }
 
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul {
+  .inner-content .content .education .single-education ul ul,
+  .inner-content .content .experience .single-experience ul ul {
     padding-bottom: 14px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+  .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
     height: 20px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+  .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
     background-size: 30px 30px;
   }
 
@@ -3605,41 +3657,41 @@ html.mfp-helper {
     }
   }
 
-  .main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name,
-  .main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name {
+  .inner-content .content .education .single-education ul ul .education-name,
+  .inner-content .content .experience .single-experience ul ul .experience-name {
     margin-bottom: 6px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact {
+  .inner-content .content .fun-facts .single-fun-fact {
     margin-bottom: 23px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
     padding-right: 10px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
     padding-left: 10px;
     padding-right: 10px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
     padding-left: 10px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
     margin-bottom: 4.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     margin-bottom: 0.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     font-size: 1.728em;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper {
+  .inner-content .content .button-wrapper {
     margin-bottom: 50px;
   }
 
@@ -3676,59 +3728,59 @@ html.mfp-helper {
     margin: 0 10px 20px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row,
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-info > .row,
+  .inner-content .content #enlace-form > .row {
     margin-top: 20px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     padding: 22px 20px 17px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-form > .row {
     padding: 22px 20px 30px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form h5:after,
-  .main-content#enlace03 .inner-content .content #enlace03-info h5:after {
+  .inner-content .content #enlace-form h5:after,
+  .inner-content .content #enlace-info h5:after {
     bottom: -10.5px;
     width: 20px;
     height: 3px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li {
     margin-bottom: 17px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(odd) {
     padding-right: 10px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(even) {
     padding-left: 10px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .alert {
+  .inner-content .content #enlace-form .alert {
     margin-bottom: 10px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .note {
+  .inner-content .content #enlace-form .note {
     margin-bottom: 24px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .note p:not(:nth-of-type(1)) {
+  .inner-content .content #enlace-form .note p:not(:nth-of-type(1)) {
     margin-top: 6px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:first-child {
+  .inner-content .content #enlace-form .form-wrapper .form-group .inner-form-group:first-child {
     padding-right: 5px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:last-child {
+  .inner-content .content #enlace-form .form-wrapper .form-group .inner-form-group:last-child {
     padding-left: 5px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
+  .inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] {
     margin-top: 20px;
   }
 
@@ -3777,21 +3829,21 @@ html.mfp-helper {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .row {
+  .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper {
+  .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -3799,11 +3851,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -3900,39 +3952,39 @@ html.mfp-helper {
     width: 150px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
+  .inner-content .content #services .single-service:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
+  .inner-content .content #services .single-service:nth-of-type(even) {
     padding-left: 7.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row,
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row,
+  .inner-content .content .fun-facts .row {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(odd) {
+  .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
+  .inner-content .content .education .single-education:nth-of-type(odd),
+  .inner-content .content .experience .single-experience:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(even) {
+  .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
+  .inner-content .content .education .single-education:nth-of-type(even),
+  .inner-content .content .experience .single-experience:nth-of-type(even) {
     padding-left: 7.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+  .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
     height: 15px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+  .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
     background-size: 25px 25px;
   }
 
@@ -3963,28 +4015,28 @@ html.mfp-helper {
     }
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1) {
     padding-right: 7.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(even) {
     padding-left: 7.5px;
     padding-right: 7.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
     padding-left: 7.5px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
     margin-bottom: 0;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
     margin-bottom: -3px;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper a {
+  .inner-content .content .button-wrapper a {
     width: 190px;
   }
 
@@ -4011,18 +4063,18 @@ html.mfp-helper {
     margin: 0 7.5px 15px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row,
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-info > .row,
+  .inner-content .content #enlace-form > .row {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 23px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(odd) {
     padding-right: 7.5px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(even) {
     padding-left: 7.5px;
   }
 }
@@ -4070,21 +4122,21 @@ html.mfp-helper {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .row {
+  .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper {
+  .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -4092,11 +4144,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -4280,48 +4332,48 @@ html.mfp-helper {
     margin-right: 0;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service {
+  .inner-content .content #services .single-service {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(odd) {
+  .inner-content .content #services .single-service:nth-of-type(odd) {
     padding-right: 0;
   }
 
-  .main-content#enlace01 .inner-content .content #services .single-service:nth-of-type(even) {
+  .inner-content .content #services .single-service:nth-of-type(even) {
     padding-left: 0;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper,
-  .main-content#enlace02 .inner-content .content .education .single-education,
-  .main-content#enlace02 .inner-content .content .experience .single-experience,
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact {
+  .inner-content .content .skills .single-skills-wrapper,
+  .inner-content .content .education .single-education,
+  .inner-content .content .experience .single-experience,
+  .inner-content .content .fun-facts .single-fun-fact {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(odd),
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1),
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-of-type(even) {
+  .inner-content .content .skills .single-skills-wrapper:nth-of-type(odd),
+  .inner-content .content .education .single-education:nth-of-type(odd),
+  .inner-content .content .experience .single-experience:nth-of-type(odd),
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 1),
+  .inner-content .content .fun-facts .single-fun-fact:nth-of-type(even) {
     padding-right: 0;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .education .single-education:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .experience .single-experience:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-of-type(even),
-  .main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
+  .inner-content .content .skills .single-skills-wrapper:nth-of-type(even),
+  .inner-content .content .education .single-education:nth-of-type(even),
+  .inner-content .content .experience .single-experience:nth-of-type(even),
+  .inner-content .content .fun-facts .single-fun-fact:nth-of-type(even),
+  .inner-content .content .fun-facts .single-fun-fact:nth-child(3n + 3) {
     padding-left: 0;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper a {
+  .inner-content .content .button-wrapper a {
     width: 100%;
   }
 
@@ -4341,36 +4393,36 @@ html.mfp-helper {
     max-width: calc(100% - 15px);
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li {
     -webkit-flex: 0 0 100%;
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(odd) {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(odd) {
     padding-right: 0;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li:nth-of-type(even) {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li:nth-of-type(even) {
     padding-left: 0;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group {
+  .inner-content .content #enlace-form .form-wrapper .form-group .inner-form-group {
     width: 100%;
     float: none;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:first-child {
+  .inner-content .content #enlace-form .form-wrapper .form-group .inner-form-group:first-child {
     padding-right: 0;
     margin-bottom: 10px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group .inner-form-group:last-child {
+  .inner-content .content #enlace-form .form-wrapper .form-group .inner-form-group:last-child {
     padding-left: 0;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
+  .inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] {
     display: block;
     width: 100%;
     margin-top: 30px;
@@ -4408,21 +4460,21 @@ html.mfp-helper {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .row {
+  .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper {
+  .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -4430,11 +4482,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -4493,16 +4545,16 @@ html.mfp-helper {
   }
 
   .inner-content .content #enlace-info h5:after,
-  .main-content#enlace01 .inner-content .content #services h5:after {
+  .inner-content .content #services h5:after {
     bottom: -9px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row,
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-info > .row,
+  .inner-content .content #enlace-form > .row {
     padding-top: 24px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li {
+  .inner-content .content #enlace-info .list-enlace-info > ul > li {
     margin-bottom: 18px;
   }
 }
@@ -4536,21 +4588,21 @@ html.mfp-helper {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .row {
+  .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper {
+  .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -4558,11 +4610,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-form > .row {
     margin-bottom: 40px;
   }
 }
@@ -4590,21 +4642,21 @@ html.mfp-helper {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace01 .inner-content .content #services .row {
+  .inner-content .content #services .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .skills .row,
-  .main-content#enlace02 .inner-content .content .education .row,
-  .main-content#enlace02 .inner-content .content .experience .row {
+  .inner-content .content .skills .row,
+  .inner-content .content .education .row,
+  .inner-content .content .experience .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace02 .inner-content .content .fun-facts .row {
+  .inner-content .content .fun-facts .row {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace02 .inner-content .content .button-wrapper {
+  .inner-content .content .button-wrapper {
     margin-bottom: 38px;
   }
 
@@ -4612,11 +4664,11 @@ html.mfp-helper {
     margin-bottom: 40px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-info > .row {
+  .inner-content .content #enlace-info > .row {
     margin-bottom: 38px;
   }
 
-  .main-content#enlace03 .inner-content .content #enlace03-form > .row {
+  .inner-content .content #enlace-form > .row {
     margin-bottom: 40px;
   }
 }

@@ -43,13 +43,13 @@
 
 #pre-load .load-circle:before {
   background: #f6d365;
-  -webkit-box-shadow: 30px 0 0 #06fff7;
-  -moz-box-shadow: 30px 0 0 #06fff7;
-  box-shadow: 30px 0 0 #06fff7;
+  -webkit-box-shadow: 30px 0 0 #00f7ef;
+  -moz-box-shadow: 30px 0 0 #00f7ef;
+  box-shadow: 30px 0 0 #00f7ef;
 }
 
 #pre-load .load-circle:after {
-  background: #fa709a;
+  background: #f6d365;
   -webkit-box-shadow: 30px 0 0 #474f7e;
   -moz-box-shadow: 30px 0 0 #474f7e;
   box-shadow: 30px 0 0 #474f7e;
@@ -215,7 +215,8 @@
   background: rgb(54, 59, 95);
 }
 
-.main-content .hanging .logo-hanging {
+.main-content .hanging .logo-hanging,
+.main-content .hanging .casos-hanging {
   background: rgb(44, 48, 81);
 }
 
@@ -234,14 +235,17 @@
 .main-content .inner-content .head-content span,
 .main-content .inner-content .head-content .name,
 .main-content .inner-content .head-content .passion {
-  color: #06fff7;
+  color: #00f7ef;
 }
 
-.main-content#home .hanging .logo-hanging i,
-.main-content#home .hanging .text-hanging .word h6 > span {
-  color: #ffbf8d;
+.hanging .logo-hanging i,
+.hanging .text-hanging .word h6 > span {
+  color: #6991c7;
 }
-
+.hanging .casos-hanging i,
+.hanging .text-hanging .word h6 > span {
+  color: #f6d365;
+}
 .main-content#home .hanging .text-hanging .word {
   color: #fff;
 }
@@ -308,130 +312,121 @@
 .main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5 > span {
   color: #f6d365;
 }
-.main-content#enlace01 .hanging .logo-hanging i,
-.main-content#enlace01 .hanging .text-hanging .word h6 > span {
-  color: #fa709a;
-}
 
-.main-content#enlace01 .inner-content .content #enlace-info .row,
-.main-content#enlace01 .inner-content .content #services .row {
+.inner-content .content #enlace-info .row,
+.inner-content .content #services .row {
   background: rgb(54, 59, 95);
 }
 
-.main-content#enlace01 .inner-content .content #enlace-info h5:after,
-.main-content#enlace01 .inner-content .content #services h5:after {
-  background: #fa709a;
+.inner-content .content #enlace-info h5:after,
+.inner-content .content #services h5:after {
+  background: #f6d365;
 }
 
-.main-content#enlace01 .inner-content .content #enlace-info .summary {
+.inner-content .content #enlace-info .summary {
   color: #a8a8a8;
 }
 
-.main-content#enlace01 .inner-content .content #enlace-info .profile ul li .label i {
+.inner-content .content #enlace-info .profile ul li .label i {
   color: #00f7ef;
 }
 
-.main-content#enlace01 .inner-content .content #enlace-info .profile ul li .value {
+.inner-content .content #enlace-info .profile ul li .value {
   color: #a8a8a8;
 }
 
-.main-content#enlace01 .inner-content .content #enlace-info .social-media ul li a {
+.inner-content .content #enlace-info .social-media ul li a {
   background: #fff;
   color: rgb(54, 59, 95);
   border-color: transparent;
 }
 
-.main-content#enlace01 .inner-content .content #enlace-info .social-media ul li a > .back {
+.inner-content .content #enlace-info .social-media ul li a > .back {
   background: rgb(44, 48, 81);
   color: #fff;
   border-color: #fff;
 }
 
-.main-content#enlace01 .inner-content .content #enlace-info .button-wrapper .single-button a {
+.inner-content .content #enlace-info .button-wrapper .single-button a {
   background: #474f7e;
   border-color: #fff;
   color: #fff;
 }
 
-.main-content#enlace01 .inner-content .content .button-wrapper a > .back {
+.inner-content .content .button-wrapper a > .back {
   background: rgb(44, 48, 81);
 }
 
-.main-content#enlace01 .inner-content .content .button-wrapper a > .front > .value > span,
-.main-content#enlace01 .inner-content .content .button-wrapper a > .back > .value > span {
+.inner-content .content .button-wrapper a > .front > .value > span,
+.inner-content .content .button-wrapper a > .back > .value > span {
   color: #00f7ef;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service ul .service-number {
+.inner-content .content #services .single-service ul .service-number {
   color: #00f7ef;
   background: rgb(44, 48, 81);
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service > ul {
+.inner-content .content #services .single-service > ul {
   border-color: rgb(44, 48, 81);
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service ul ul .service-name i {
+.inner-content .content #services .single-service ul ul .service-name i {
   color: #00f7ef;
 }
 
-.main-content#enlace01 .inner-content .content #services .single-service ul ul .service-body {
+.inner-content .content #services .single-service ul ul .service-body {
   color: #a8a8a8;
 }
 
-.main-content#enlace02 .hanging .logo-hanging i,
-.main-content#enlace02 .hanging .text-hanging .word h6 > span {
-  color: #f6d365;
-}
-
-.main-content#enlace02 .inner-content .content .skills .row,
-.main-content#enlace02 .inner-content .content .education .row,
-.main-content#enlace02 .inner-content .content .experience .row,
-.main-content#enlace02 .inner-content .content .fun-facts .row {
+.inner-content .content .skills .row,
+.inner-content .content .education .row,
+.inner-content .content .experience .row,
+.inner-content .content .fun-facts .row {
    background: rgb(54, 59, 95);
 }
 
-.main-content#enlace02 .inner-content .content .skills h5:after,
-.main-content#enlace02 .inner-content .content .education h5:after,
-.main-content#enlace02 .inner-content .content .experience h5:after,
-.main-content#enlace02 .inner-content .content .fun-facts h5:after {
+.inner-content .content .skills h5:after,
+.inner-content .content .education h5:after,
+.inner-content .content .experience h5:after,
+.inner-content .content .fun-facts h5:after {
   background: #f6d365;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper .skills-heading,
-.main-content#enlace02 .inner-content .content .education .single-education .education-when-where,
-.main-content#enlace02 .inner-content .content .experience .single-experience .experience-when-where {
+.inner-content .content .skills .single-skills-wrapper .skills-heading,
+.inner-content .content .education .single-education .education-when-where,
+.inner-content .content .experience .single-experience .experience-when-where {
   color: #00f7ef;
   background: rgb(44, 48, 81);
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper > ul,
-.main-content#enlace02 .inner-content .content .education .single-education > ul,
-.main-content#enlace02 .inner-content .content .experience .single-experience > ul {
+.inner-content .content .skills .single-skills-wrapper > ul,
+.inner-content .content .education .single-education > ul,
+.inner-content .content .experience .single-experience > ul {
   border-color: rgb(44, 48, 81);
 }
 
-.main-content#enlace02 .inner-content .content .education .single-education ul ul .education-body,
-.main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-body {
+.inner-content .content .education .single-education ul ul .education-body,
+.inner-content .content .experience .single-experience ul ul .experience-body {
   color: #a8a8a8;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name i,
-.main-content#enlace02 .inner-content .content .education .single-education ul ul .education-name i,
-.main-content#enlace02 .inner-content .content .experience .single-experience ul ul .experience-name i,
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-body i {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill .skill-name i,
+.inner-content .content .education .single-education ul ul .education-name i,
+.inner-content .content .experience .single-experience ul ul .experience-name i,
+.inner-content .content .fun-facts .single-fun-fact .fun-fact-body i {
   color: #00f7ef;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .percentage {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill ul .percentage {
   color: #a8a8a8;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper {
   border-color: #fff;
 }
 
-.main-content#enlace02 .inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
+.inner-content .content .skills .single-skills-wrapper ul .single-skill ul .progress-wrapper .progress {
   background: #474f7e;
   background: -webkit-linear-gradient(45deg, #474f7e 25%, transparent 25%, transparent 50%, #474f7e 50%, #474f7e 75%, transparent 75%, transparent);
   background: -moz-linear-gradient(45deg, #474f7e 25%, transparent 25%, transparent 50%, #474f7e 50%, #474f7e 75%, transparent 75%, transparent);
@@ -441,29 +436,25 @@
   border-right-color: #fff;
 }
 
-.main-content#enlace02 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
+.inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
   color: #a8a8a8;
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a {
+.inner-content .content .button-wrapper a {
   background: #474f7e;
   border-color: #fff;
   color: #fff;
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a > .back {
+.inner-content .content .button-wrapper a > .back {
   background: rgb(44, 48, 81);
 }
 
-.main-content#enlace02 .inner-content .content .button-wrapper a > .front > .value > span,
-.main-content#enlace02 .inner-content .content .button-wrapper a > .back > .value > span {
+.inner-content .content .button-wrapper a > .front > .value > span,
+.inner-content .content .button-wrapper a > .back > .value > span {
   color: #00f7ef;
 }
 
-.main-content#portfolio .hanging .logo-hanging i,
-.main-content#portfolio .hanging .text-hanging .word h6 > span {
-  color: #43e97b;
-}
 
 .main-content#portfolio .inner-content .content #projects > .row {
   background: rgb(54, 59, 95);
@@ -507,57 +498,49 @@
   color: #00f7ef;
 }
 
-.main-content#enlace03 .hanging .logo-hanging i,
-.main-content#enlace03 .hanging .text-hanging .word h6 > span {
-  color: #6991c7;
-}
-
-.main-content#enlace03 .inner-content .content #enlace03-info > .row,
-.main-content#enlace03 .inner-content .content #enlace03-form > .row {
+.inner-content .content #enlace-info > .row,
+.inner-content .content #enlace-form > .row {
   background: rgb(54, 59, 95);
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info h5:after,
-.main-content#enlace03 .inner-content .content #enlace03-form h5:after {
-  background: #6991c7;
-}
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .enlace03-info-name {
+
+.inner-content .content #enlace-info .list-enlace-info > ul > li .enlace-info-name {
   color: #00f7ef;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .value {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .value {
   color: #a8a8a8;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media li a {
   background: #fff;
   color: rgb(54, 59, 95);
   border-color: transparent;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-info .list-enlace03-info > ul > li .social-media li a > .back {
+.inner-content .content #enlace-info .list-enlace-info > ul > li .social-media li a > .back {
   background: #474f7e;
   color: #fff;
   border-color: #fff;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .note p {
+.inner-content .content #enlace-form .note p {
   color: #a8a8a8;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] {
   background: #474f7e;
   border-color: #fff;
   color: #fff;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .front > .value > span,
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .back > .value > span {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] > .front > .value > span,
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] > .back > .value > span {
   color: #00f7ef;
 }
 
-.main-content#enlace03 .inner-content .content #enlace03-form .form-wrapper .form-group button[type="submit"] > .back {
+.inner-content .content #enlace-form .form-wrapper .form-group button[type="submit"] > .back {
   background: rgb(44, 48, 81);
 }
 
