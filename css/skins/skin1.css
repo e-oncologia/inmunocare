@@ -246,70 +246,70 @@
 .hanging .text-hanging .word h6 > span {
   color: #f6d365;
 }
-.main-content#home .hanging .text-hanging .word {
+.hanging .text-hanging .word {
   color: #fff;
 }
 
-.main-content#home .inner-content .content .box-wrapper .inner-box-wrapper {
+.inner-content .content .box-wrapper .inner-box-wrapper {
   background: rgb(54, 59, 95);
 }
 
-.main-content#home .inner-content .content .box-wrapper .inner-box-wrapper:after {
+.inner-content .content .box-wrapper .inner-box-wrapper:after {
   -webkit-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
   box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
 }
 
-.main-content#home .inner-content .content .box-wrapper .inner-box-wrapper:hover {
+.inner-content .content .box-wrapper .inner-box-wrapper:hover {
   background: #474f7e;
 }
 
 
 
-.main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center h5 > span {
+.inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center h5 > span {
   color: #f6d365;
 }
 
-.main-content#home .inner-content .content .box-casos .inner-box-wrapper {
+.inner-content .content .box-casos .inner-box-wrapper {
   background: rgb(54, 59, 95);
 }
 
-.main-content#home .inner-content .content .box-casos .inner-box-wrapper:after {
+.inner-content .content .box-casos .inner-box-wrapper:after {
   -webkit-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
   box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
 }
 
-.main-content#home .inner-content .content .box-casos .inner-box-wrapper:hover {
+.inner-content .content .box-casos .inner-box-wrapper:hover {
   background: #474f7e;
 }
 
-.main-content#home .inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center i {
+.inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center i {
   color: #f6d365;
 }
 
-.main-content#home .inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center h5 > span {
+.inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center h5 > span {
   color: #f6d365;
 }
-.main-content#home .inner-content .content .box-index .inner-box-wrapper {
+.inner-content .content .box-index .inner-box-wrapper {
   background: rgb(54, 59, 95);
 }
 
-.main-content#home .inner-content .content .box-index .inner-box-wrapper:after {
+.inner-content .content .box-index .inner-box-wrapper:after {
   -webkit-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
   box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
 }
 
-.main-content#home .inner-content .content .box-index .inner-box-wrapper:hover {
+.inner-content .content .box-index .inner-box-wrapper:hover {
   background: #474f7e;
 }
 
-.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center i {
+.inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center i {
   color: #f6d365;
 }
 
-.main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5 > span {
+.inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5 > span {
   color: #f6d365;
 }
 
@@ -546,4 +546,14 @@
 
 #right-wrapper {
   background: #363b5f;
+}
+
+.marcoTexto {
+  margin: 10px 20px 10px 20px;
+  padding: 1em;
+  border-radius: 5px;
+  background: #2c3051;
+}
+.marcoTexto:hover {
+  background: #474f7e;
 }

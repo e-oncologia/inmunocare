@@ -112,7 +112,13 @@ h6 { font-size: 1em; }
 table tr td p {
   line-height: 1.2;
 }
-
+.centrada {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
 .gris {
   color: #a8a8a8;
 }
@@ -4118,6 +4124,7 @@ html.mfp-helper {
   .main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5, {
     margin-top: 11px;
   }
+
   .inner-content .content #enlace-info .row {
     margin-bottom: 38px;
   }
@@ -4279,6 +4286,7 @@ html.mfp-helper {
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+
 
   .inner-content .content #enlace-info .profile-picture {
     -webkit-flex: 0 0 100%;
