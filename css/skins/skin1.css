@@ -549,11 +549,22 @@
 }
 
 .marcoTexto {
-  margin: 10px 20px 10px 20px;
-  padding: 1em;
+  margin: 20px;
+  padding: 15px 15px;
   border-radius: 5px;
   background: #2c3051;
+  text-align: center;
+  cursor: pointer;
+}
+.centradovertical {
+  display: table-cell;
+  vertical-align: middle;
+  line-height: normal;
 }
 .marcoTexto:hover {
   background: #474f7e;
+}
+
+.marcoTexto h5 {
+  line-height: 2;
 }
