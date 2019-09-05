@@ -239,17 +239,20 @@
 }
 
 .hanging .logo-hanging i,
-.hanging .text-hanging .word h6 > span {
+.hanging .logo-hanging span {
   color: #6991c7;
 }
 .hanging .casos-hanging i,
-.hanging .text-hanging .word h6 > span {
+.hanging .casos-hanging span {
   color: #f6d365;
 }
 .hanging .text-hanging .word {
   color: #fff;
 }
-
+.hanging .menu-hanging i,
+.hanging .menu-hanging span {
+  color: #dddddd;
+}
 .inner-content .content .box-wrapper .inner-box-wrapper {
   background: rgb(54, 59, 95);
 }
