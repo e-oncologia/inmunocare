@@ -1,32 +1,3 @@
-/* ============================================================== */
-/* Template Name : Metronal - Personal Portfolio Page             */
-/* Author        : Rietts Andreas Ruff                            */
-/* Author URI    : https://themeforest.net/user/riettsruff        */
-/* Version       : 1.3                                            */
-/* ============================================================== */
-
-/*------------------------------------------------------------------
-[Table of contents]
-
-  1. General
-  2. Pre Load / #pre-load
-  3. Wrapper / #wrapper
-     3.1. Left Wrapper / #left-wrapper
-          3.1.1. Main Content - General / .main-content
-          3.1.2. Main Content - Home / .main-content#home
-          3.1.3. Main Content - enlace01 / .main-content#enlace01
-          3.1.4. Main Content - enlace02 / .main-content#enlace02
-          3.1.5. Main Content - Portfolio / .main-content#portfolio
-          3.1.6. Main Content - enlace03 / .main-content#enlace03
-     3.2. Right Wrapper / #right-wrapper
-          3.2.1. Large Profile Picture / .lg-profile-picture
-  4. Responsive Design Styles
-
--------------------------------------------------------------------*/
-
-/*=================================================================*/
-/* [ 1. General ]                                                  */
-/*=================================================================*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -79,7 +50,7 @@ a {
   color: #e0e0e0;
 }
 a:hover{
-  color: #00f7ef;
+  color: #6f9edd;
 }
 
 ul {
@@ -87,13 +58,13 @@ ul {
 }
 
 p {
-  line-height: 1.75;
+  line-height: 1.15;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", "Segoe UI", sans-serif;
   font-weight: 800;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   line-height: 1.5;
 }
 
@@ -120,14 +91,28 @@ table tr td p {
   max-width:300px;
   margin: 0 auto;
 }
+.flexible {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto;
+}
 .gris {
   color: #a8a8a8;
 }
+.contenidocaso p{
+  color: #a8a8a8;
+  line-height: 1.75;
+  padding-bottom: 10px;
+}
 .turquesa {
-  color: #00f7ef;
+  color: #6f9edd;
 }
 .intermitente:hover {
-  color: #00f7ef;
+  color: #6f9edd;
   transition:.5s;
 }
 .pregunta{
@@ -561,6 +546,8 @@ html.mfp-helper {
   position: absolute;
   padding-left: 60px;
   visibility: hidden;
+  border-radius: 0.5%;
+
 }
 
 .main-content.active {
@@ -627,7 +614,7 @@ html.mfp-helper {
 
 .main-content .hanging .logo-hanging {
   position: absolute;
-  top: 0;
+  top: 8;
   left: 0;
   width: 100%;
   height: 60px;
@@ -649,7 +636,7 @@ html.mfp-helper {
 }
 .casos-hanging {
   position: absolute;
-  top: 0px;
+  top: 60px;
   left: 0;
   width: 100%;
   height: 60px;
@@ -672,7 +659,7 @@ html.mfp-helper {
 
 .menu-hanging {
   position: absolute;
-  top: 27px;
+  top: 120px;
   left: 0;
   width: 100%;
   height: 60px;
@@ -694,7 +681,6 @@ html.mfp-helper {
 }
 
 .main-content .hanging .logo-hanging i {
-  padding-top: 8px;
   font-size: 30px;
 }
 .main-content .hanging .casos-hanging i {
@@ -706,7 +692,7 @@ html.mfp-helper {
 
 
 
-.main-content .hanging .text-hanging {
+.text-hanging {
   position: absolute;
   width: 100%;
   height: -webkit-calc(100% - 60px);
@@ -731,7 +717,7 @@ html.mfp-helper {
   align-items: center;
 }
 
-.main-content .text-hanging .word {
+.word {
   white-space: nowrap;
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
@@ -740,11 +726,11 @@ html.mfp-helper {
   transform: rotate(-90deg);
 }
 
-.main-content .text-hanging .word:not(:first-of-type) {
+.word:not(:first-of-type) {
   margin-top: 10px;
 }
 
-.main-content .hanging .text-hanging h6 {
+.text-hanging h6 {
   text-transform: uppercase;
   margin: 0;
   font-weight: 700;
@@ -838,8 +824,8 @@ html.mfp-helper {
 .main-content#home .inner-content .content .box-wrapper {
   width: 100%;
   height: 100%;
-  float: left;
   padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 
@@ -902,14 +888,8 @@ html.mfp-helper {
 
 .main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center h5 {
   font-weight: 700;
-}
-
-.main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center h5 {
   margin-bottom: 0;
   text-transform: uppercase;
-}
-
-.main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center h5 {
   margin-top: 16px;
 }
 
@@ -1000,7 +980,7 @@ html.mfp-helper {
   width: 50%;
   height: 33%;
   float: left;
-  padding: 15px;
+  padding: 30px 15px 0px 15px;
 }
 
 
@@ -2488,12 +2468,11 @@ html.mfp-helper {
   }
 
   .main-content .hanging .logo-hanging i {
-    padding-top: 5px;
     font-size: 28px;
   }
 
   .main-content .hanging .casos-hanging {
-    height: 50px;
+    height: 60px;
   }
 
   .main-content .hanging .casos-hanging i {
@@ -2501,15 +2480,14 @@ html.mfp-helper {
   }
 
   .main-content .hanging .menu-hanging {
-    top: 24px;
-    height: 50px;
+    height: 60px;
   }
 
   .main-content .hanging .menu-hanging i {
     font-size: 28px;
   }
 
-  .main-content .hanging .text-hanging {
+  .text-hanging {
     height: -webkit-calc(100% - 50px);
     height: -moz-calc(100% - 50px);
     height: calc(100% - 50px);
@@ -3027,12 +3005,11 @@ html.mfp-helper {
   }
 
   .main-content .hanging .logo-hanging i {
-    padding-top: 5px;
     font-size: 25px;
   }
 
   .main-content .hanging .casos-hanging {
-    height: 40px;
+    height: 60px;
   }
 
   .main-content .hanging .casos-hanging i {
@@ -3040,15 +3017,14 @@ html.mfp-helper {
   }
 
   .main-content .hanging .menu-hanging {
-    top: 22px;
-    height: 40px;
+    height: 60px;
   }
 
   .main-content .hanging .menu-hanging i {
     font-size: 25px;
   }
 
-  .main-content .hanging .text-hanging {
+  .text-hanging {
     height: -webkit-calc(100% - 40px);
     height: -moz-calc(100% - 40px);
     height: calc(100% - 40px);
@@ -3491,7 +3467,7 @@ html.mfp-helper {
 .main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center h5 {
   margin: 0 !important;
 }
-}
+
 
 @media (max-width: 767px) {
   .project-popup {
@@ -4274,7 +4250,7 @@ html.mfp-helper {
 }
 
 @media (max-height: 380px) {
-  .main-content .hanging .text-hanging h6 {
+  .text-hanging h6 {
     letter-spacing: 0.5em;
     font-size: 0.9em;
   }
@@ -4333,9 +4309,10 @@ html.mfp-helper {
     padding:0;
     position:absolute;
     overflow:hidden;
+    background: #2c3051;
+    border-radius: 5%;
 
     /* Text properties */
-    font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
     font-size:18px;
     font-weight:bold;
     letter-spacing:0.6px;
@@ -4359,6 +4336,7 @@ html.mfp-helper {
     display:block;
     position:relative;
     text-align: center;
+    z-index: 2000;
 }
 
 /* General hover styles */
@@ -4371,4 +4349,9 @@ html.mfp-helper {
   -webkit-transition: 0.25s;
   -moz-transition: 0.25s;
   transition: 0.25s;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+  padding: 10px;
 }
