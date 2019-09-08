@@ -211,6 +211,7 @@ border-radius: 5%;
 -moz-transition:all ease .8s; /*Aplicamos una ligera transición*/
 -webkit-transition:all ease .8s ;
 transition:all ease .8s;
+z-index: 2100;
 }
 .caja:hover .info {
 filter: alpha(opacity=80);
@@ -882,6 +883,8 @@ html.mfp-helper {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+  padding: 20px;
+  text-align: center;
 }
 
 .main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center h5 {
@@ -3695,15 +3698,8 @@ html.mfp-helper {
 
 
 
-  .main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center {
-    display: block;
-    height: 100%;
-    text-align: center;
-  }
+  
 
-  .main-content#home .inner-content .content .box-wrapper .inner-box-wrapper .menu-link .valign-center i {
-    display: none;
-  }
 
   
 
@@ -3718,9 +3714,6 @@ html.mfp-helper {
     text-align: center;
   }
 
-  .main-content#home .inner-content .content .box-bienvenida .inner-box-wrapper .menu-link .valign-center i {
-    display: none;
-  }
 
   
 
@@ -3729,9 +3722,6 @@ html.mfp-helper {
     height: 25%;
   }
 
-  .main-content#home .inner-content .content .box-casos .inner-box-wrapper .menu-link .valign-center i {
-    display: none;
-  }
 
  
 
@@ -3739,10 +3729,7 @@ html.mfp-helper {
     width: 100%;
     height: 25%;
   }
-  .main-content#home .inner-content .content .box-index .inner-box-wrapper .menu-link .valign-center i {
-    display: none;
-  }
-
+ 
 
 
   .inner-content .content #enlace-info .profile-picture {
