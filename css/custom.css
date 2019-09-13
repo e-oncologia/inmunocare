@@ -101,10 +101,10 @@ table tr td p {
   margin: 0 auto;
 }
 .gris {
-  color: #a8a8a8;
+  color: #efefef;
 }
 .contenidocaso p{
-  color: #a8a8a8;
+  color: #efefef;
   line-height: 1.75;
   padding-bottom: 10px;
 }
@@ -2954,7 +2954,7 @@ html.mfp-helper {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  
+
   #right-wrapper {
     position: absolute;
     top: 0;
@@ -2978,7 +2978,7 @@ html.mfp-helper {
   #right-wrapper img {
     display: none;
   }
- 
+
   .main-content {
     padding-left: 40px;
   }
@@ -3698,10 +3698,10 @@ html.mfp-helper {
 
 
 
-  
 
 
-  
+
+
 
   .main-content#home .inner-content .content .box-bienvenida {
     width: 100%;
@@ -3715,7 +3715,7 @@ html.mfp-helper {
   }
 
 
-  
+
 
   .main-content#home .inner-content .content .box-casos {
     width: 100%;
@@ -3723,13 +3723,13 @@ html.mfp-helper {
   }
 
 
- 
+
 
   .main-content#home .inner-content .content .box-index {
     width: 100%;
     height: 25%;
   }
- 
+
 
 
   .inner-content .content #enlace-info .profile-picture {
