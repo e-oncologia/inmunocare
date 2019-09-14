@@ -1,14 +1,11 @@
-
-
-
-
 /* ==============================================================
 azul claro: #6f9edd
-azul oscuro: #474f7e
+azul: #474f7e
+azul oscuro: #2c3051
 amarillo: #f6d365
+texto: #c4c4c4
 
 ============================================================== */
-
 
 .project-popup {
   background: #fff;
@@ -25,7 +22,7 @@ amarillo: #f6d365
 }
 
 .project-popup .project-source > .back {
-  background: rgb(54, 59, 95);
+  background: #363b5f;
 }
 
 .project-popup .project-source > .front > .value > span,
@@ -39,7 +36,7 @@ amarillo: #f6d365
 }
 
 #pre-load {
-  background: rgb(44, 48, 81);
+  background: #2c3051;
 }
 
 #pre-load .load-circle:before {
@@ -224,11 +221,11 @@ amarillo: #f6d365
 }
 
 .main-content {
-  background: rgb(44, 48, 81);
+  background: #2c3051;
 }
 
 .main-content .close-menu-link {
-  color: #a8a8a8;
+  color: #efefef;
 }
 
 .main-content .close-menu-link:hover {
@@ -236,20 +233,18 @@ amarillo: #f6d365
 }
 
 .main-content .hanging {
-  background: rgb(54, 59, 95);
+  background: #363b5f;
 }
 
 .main-content .hanging .logo-hanging,
 .main-content .hanging .casos-hanging,
-.main-content .hanging .menu-hanging {
-  background: rgb(44, 48, 81);
+.main-content .hanging .menu-hanging,
+.main-content .hanging .material-hanging {
+  background: #2c3051;
 }
 
-.main-content .inner-content .head-content h3 {
-  text-shadow: 0 3px 9px hsla(0, 0%, 0%, 0.2);
-}
-
-.main-content .inner-content .head-content h5 {
+.main-content .inner-content .head-content h3,
+h5 {
   text-shadow: 0 3px 9px hsla(0, 0%, 0%, 0.2);
 }
 
@@ -271,6 +266,10 @@ amarillo: #f6d365
 .hanging .menu-hanging span {
   color: #6f9edd;
 }
+.hanging .material-hanging i,
+.hanging .material-hanging span {
+  color: #6f9edd;
+}
 .word {
   color: #fff;
 }
@@ -278,7 +277,7 @@ amarillo: #f6d365
   color: #6f9edd;
 }
 .inner-content .content .box-wrapper .inner-box-wrapper {
-  background: rgb(54, 59, 95);
+  background: #363b5f;
 }
 
 .inner-content .content .box-wrapper .inner-box-wrapper:after {
@@ -303,7 +302,7 @@ amarillo: #f6d365
 }
 
 .inner-content .content .box-casos .inner-box-wrapper {
-  background: rgb(54, 59, 95);
+  background: #363b5f;
 }
 
 .inner-content .content .box-casos .inner-box-wrapper:after {
@@ -336,8 +335,9 @@ amarillo: #f6d365
   > span {
   color: #f6d365;
 }
+
 .inner-content .content .box-index .inner-box-wrapper {
-  background: rgb(54, 59, 95);
+  background: #363b5f;
 }
 
 .inner-content .content .box-index .inner-box-wrapper:after {
@@ -373,7 +373,7 @@ amarillo: #f6d365
 
 .inner-content .content #enlace-info .row,
 .inner-content .content #services .row {
-  background: rgb(54, 59, 95);
+  background: #363b5f;
 }
 
 .inner-content .content #enlace-info h5:after,
@@ -382,7 +382,7 @@ amarillo: #f6d365
 }
 
 .inner-content .content #enlace-info .summary {
-  color: #a8a8a8;
+  color: #efefef;
 }
 
 .inner-content .content #enlace-info .profile ul li .label i {
@@ -390,17 +390,17 @@ amarillo: #f6d365
 }
 
 .inner-content .content #enlace-info .profile ul li .value {
-  color: #a8a8a8;
+  color: #efefef;
 }
 
 .inner-content .content #enlace-info .social-media ul li a {
   background: #fff;
-  color: rgb(54, 59, 95);
+  color: #363b5f;
   border-color: transparent;
 }
 
 .inner-content .content #enlace-info .social-media ul li a > .back {
-  background: rgb(44, 48, 81);
+  background: #2c3051;
   color: #fff;
   border-color: #fff;
 }
@@ -412,7 +412,7 @@ amarillo: #f6d365
 }
 
 .inner-content .content .button-wrapper a > .back {
-  background: rgb(44, 48, 81);
+  background: #2c3051;
 }
 
 .inner-content .content .button-wrapper a > .front > .value > span,
@@ -422,11 +422,11 @@ amarillo: #f6d365
 
 .inner-content .content #services .single-service ul .service-number {
   color: #6f9edd;
-  background: rgb(44, 48, 81);
+  background: #2c3051;
 }
 
 .inner-content .content #services .single-service > ul {
-  border-color: rgb(44, 48, 81);
+  border-color: #2c3051;
 }
 
 .inner-content .content #services .single-service ul ul .service-name i {
@@ -434,14 +434,14 @@ amarillo: #f6d365
 }
 
 .inner-content .content #services .single-service ul ul .service-body {
-  color: #a8a8a8;
+  color: #efefef;
 }
 
 .inner-content .content .skills .row,
 .inner-content .content .education .row,
 .inner-content .content .experience .row,
 .inner-content .content .fun-facts .row {
-  background: rgb(54, 59, 95);
+  background: #363b5f;
 }
 
 .inner-content .content .skills h5:after,
@@ -455,18 +455,18 @@ amarillo: #f6d365
 .inner-content .content .education .single-education .education-when-where,
 .inner-content .content .experience .single-experience .experience-when-where {
   color: #6f9edd;
-  background: rgb(44, 48, 81);
+  background: #2c3051;
 }
 
 .inner-content .content .skills .single-skills-wrapper > ul,
 .inner-content .content .education .single-education > ul,
 .inner-content .content .experience .single-experience > ul {
-  border-color: rgb(44, 48, 81);
+  border-color: #2c3051;
 }
 
 .inner-content .content .education .single-education ul ul .education-body,
 .inner-content .content .experience .single-experience ul ul .experience-body {
-  color: #a8a8a8;
+  color: #efefef;
 }
 
 .inner-content
@@ -491,7 +491,7 @@ amarillo: #f6d365
   .single-skill
   ul
   .percentage {
-  color: #a8a8a8;
+  color: #efefef;
 }
 
 .inner-content
@@ -569,7 +569,7 @@ amarillo: #f6d365
 }
 
 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
-  color: #a8a8a8;
+  color: #efefef;
 }
 
 .inner-content .content .button-wrapper a {
@@ -579,7 +579,7 @@ amarillo: #f6d365
 }
 
 .inner-content .content .button-wrapper a > .back {
-  background: rgb(44, 48, 81);
+  background: #2c3051;
 }
 
 .inner-content .content .button-wrapper a > .front > .value > span,
@@ -588,7 +588,7 @@ amarillo: #f6d365
 }
 
 .main-content#portfolio .inner-content .content #projects > .row {
-  background: rgb(54, 59, 95);
+  background: #363b5f;
 }
 
 .main-content#portfolio .inner-content .content #projects h5:after {
@@ -603,7 +603,7 @@ amarillo: #f6d365
   ul
   li
   a {
-  color: #a8a8a8;
+  color: #efefef;
 }
 
 .main-content#portfolio
@@ -614,7 +614,7 @@ amarillo: #f6d365
   ul
   li
   a.current {
-  background: rgb(54, 59, 95);
+  background: #363b5f;
   border-color: #fff;
   color: #fff;
 }
@@ -655,7 +655,7 @@ amarillo: #f6d365
   .overlay
   .view-more
   > .back {
-  background: rgb(44, 48, 81);
+  background: #2c3051;
 }
 
 .main-content#portfolio
@@ -700,7 +700,7 @@ amarillo: #f6d365
 
 .inner-content .content #enlace-info > .row,
 .inner-content .content #enlace-form > .row {
-  background: rgb(54, 59, 95);
+  background: #363b5f;
 }
 
 .inner-content
@@ -714,7 +714,7 @@ amarillo: #f6d365
 }
 
 .inner-content .content #enlace-info .list-enlace-info > ul > li .value {
-  color: #a8a8a8;
+  color: #efefef;
 }
 
 .inner-content
@@ -727,7 +727,7 @@ amarillo: #f6d365
   li
   a {
   background: #fff;
-  color: rgb(54, 59, 95);
+  color: #363b5f;
   border-color: transparent;
 }
 
@@ -747,7 +747,7 @@ amarillo: #f6d365
 }
 
 .inner-content .content #enlace-form .note p {
-  color: #a8a8a8;
+  color: #efefef;
 }
 
 .inner-content
@@ -789,7 +789,7 @@ amarillo: #f6d365
   .form-group
   button[type="submit"]
   > .back {
-  background: rgb(44, 48, 81);
+  background: #2c3051;
 }
 
 #right-wrapper {
@@ -810,7 +810,7 @@ amarillo: #f6d365
   line-height: normal;
 }
 .marcoTexto:hover {
-  background: #474f7e;
+  background: #2c3051;
 }
 
 .marcoTexto h5 {
