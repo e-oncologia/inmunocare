@@ -1,5 +1,5 @@
 /* ==============================================================
-azul claro: #6f9edd
+azul claro: #7eafe7
 azul: #474f7e
 azul oscuro: #2c3051
 amarillo: #f6d365
@@ -27,7 +27,7 @@ texto: #c4c4c4
 
 .project-popup .project-source > .front > .value > span,
 .project-popup .project-source > .back > .value > span {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .mfp-close {
@@ -41,9 +41,9 @@ texto: #c4c4c4
 
 #pre-load .load-circle:before {
   background: #f6d365;
-  -webkit-box-shadow: 30px 0 0 #6f9edd;
-  -moz-box-shadow: 30px 0 0 #6f9edd;
-  box-shadow: 30px 0 0 #6f9edd;
+  -webkit-box-shadow: 30px 0 0 #7eafe7;
+  -moz-box-shadow: 30px 0 0 #7eafe7;
+  box-shadow: 30px 0 0 #7eafe7;
 }
 
 #pre-load .load-circle:after {
@@ -55,53 +55,53 @@ texto: #c4c4c4
 
 @-webkit-keyframes ball1 {
   0% {
-    -webkit-box-shadow: 30px 0 0 #6f9edd;
-    box-shadow: 30px 0 0 #6f9edd;
+    -webkit-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
   }
   50% {
-    -webkit-box-shadow: 0 0 0 #6f9edd;
-    box-shadow: 0 0 0 #6f9edd;
+    -webkit-box-shadow: 0 0 0 #7eafe7;
+    box-shadow: 0 0 0 #7eafe7;
     margin-bottom: 0;
     -webkit-transform: translate(15px, 15px);
     -o-transform: translate(15px, 15px);
     transform: translate(15px, 15px);
   }
   100% {
-    -webkit-box-shadow: 30px 0 0 #6f9edd;
-    box-shadow: 30px 0 0 #6f9edd;
+    -webkit-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
     margin-bottom: 10px;
   }
 }
 
 @-moz-keyframes ball1 {
   0% {
-    -moz-box-shadow: 30px 0 0 #6f9edd;
-    box-shadow: 30px 0 0 #6f9edd;
+    -moz-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
   }
   50% {
-    -moz-box-shadow: 0 0 0 #6f9edd;
-    box-shadow: 0 0 0 #6f9edd;
+    -moz-box-shadow: 0 0 0 #7eafe7;
+    box-shadow: 0 0 0 #7eafe7;
     margin-bottom: 0;
     -moz-transform: translate(15px, 15px);
     transform: translate(15px, 15px);
   }
   100% {
-    -moz-box-shadow: 30px 0 0 #6f9edd;
-    box-shadow: 30px 0 0 #6f9edd;
+    -moz-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
     margin-bottom: 10px;
   }
 }
 
 @keyframes ball1 {
   0% {
-    -webkit-box-shadow: 30px 0 0 #6f9edd;
-    -moz-box-shadow: 30px 0 0 #6f9edd;
-    box-shadow: 30px 0 0 #6f9edd;
+    -webkit-box-shadow: 30px 0 0 #7eafe7;
+    -moz-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
   }
   50% {
-    -webkit-box-shadow: 0 0 0 #6f9edd;
-    -moz-box-shadow: 0 0 0 #6f9edd;
-    box-shadow: 0 0 0 #6f9edd;
+    -webkit-box-shadow: 0 0 0 #7eafe7;
+    -moz-box-shadow: 0 0 0 #7eafe7;
+    box-shadow: 0 0 0 #7eafe7;
     margin-bottom: 0;
     -webkit-transform: translate(15px, 15px);
     -moz-transform: translate(15px, 15px);
@@ -110,9 +110,9 @@ texto: #c4c4c4
     transform: translate(15px, 15px);
   }
   100% {
-    -webkit-box-shadow: 30px 0 0 #6f9edd;
-    -moz-box-shadow: 30px 0 0 #6f9edd;
-    box-shadow: 30px 0 0 #6f9edd;
+    -webkit-box-shadow: 30px 0 0 #7eafe7;
+    -moz-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
     margin-bottom: 10px;
   }
 }
@@ -251,30 +251,30 @@ h5 {
 .main-content .inner-content .head-content span,
 .main-content .inner-content .head-content .name,
 .main-content .inner-content .head-content .passion {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .hanging .logo-hanging i,
 .hanging .logo-hanging span {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 .hanging .casos-hanging i,
 .hanging .casos-hanging span {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 .hanging .menu-hanging i,
 .hanging .menu-hanging span {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 .hanging .material-hanging i,
 .hanging .material-hanging span {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 .word {
   color: #fff;
 }
 .word span {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 .inner-content .content .box-wrapper .inner-box-wrapper {
   background: #363b5f;
@@ -386,7 +386,7 @@ h5 {
 }
 
 .inner-content .content #enlace-info .profile ul li .label i {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .inner-content .content #enlace-info .profile ul li .value {
@@ -417,11 +417,11 @@ h5 {
 
 .inner-content .content .button-wrapper a > .front > .value > span,
 .inner-content .content .button-wrapper a > .back > .value > span {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .inner-content .content #services .single-service ul .service-number {
-  color: #6f9edd;
+  color: #7eafe7;
   background: #2c3051;
 }
 
@@ -430,7 +430,7 @@ h5 {
 }
 
 .inner-content .content #services .single-service ul ul .service-name i {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .inner-content .content #services .single-service ul ul .service-body {
@@ -454,7 +454,7 @@ h5 {
 .inner-content .content .skills .single-skills-wrapper .skills-heading,
 .inner-content .content .education .single-education .education-when-where,
 .inner-content .content .experience .single-experience .experience-when-where {
-  color: #6f9edd;
+  color: #7eafe7;
   background: #2c3051;
 }
 
@@ -480,7 +480,7 @@ h5 {
 .inner-content .content .education .single-education ul ul .education-name i,
 .inner-content .content .experience .single-experience ul ul .experience-name i,
 .inner-content .content .fun-facts .single-fun-fact .fun-fact-body i {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .inner-content
@@ -584,7 +584,7 @@ h5 {
 
 .inner-content .content .button-wrapper a > .front > .value > span,
 .inner-content .content .button-wrapper a > .back > .value > span {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .main-content#portfolio .inner-content .content #projects > .row {
@@ -682,7 +682,7 @@ h5 {
   > .back
   > .value
   > span {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .main-content#portfolio
@@ -695,7 +695,7 @@ h5 {
   .overlay
   .image-info
   .project-name {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .inner-content .content #enlace-info > .row,
@@ -710,7 +710,7 @@ h5 {
   > ul
   > li
   .enlace-info-name {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .inner-content .content #enlace-info .list-enlace-info > ul > li .value {
@@ -779,7 +779,7 @@ h5 {
   > .back
   > .value
   > span {
-  color: #6f9edd;
+  color: #7eafe7;
 }
 
 .inner-content
