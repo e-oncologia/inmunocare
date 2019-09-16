@@ -1,5 +1,5 @@
 function mostrar() {
-  div = document.getElementById("flotante1");
+  div = document.getElementById("flotante");
   div.style.display = "";
 }
 
@@ -19,7 +19,7 @@ function cerrarIncorrecto() {
 }
 
 function resultado() {
-  var p1;
+  var a1;
 
   if (document.getElementById("a1").checked == true) {
     cerrarIncorrecto(), mostrar();

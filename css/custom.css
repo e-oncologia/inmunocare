@@ -101,7 +101,7 @@ table tr td p {
   margin: 0 auto;
 }
 .gris {
-  color: #c4c4c4;
+  opacity: .6;
 }
 .amarillo {
   color: #f6d365;
@@ -116,7 +116,7 @@ table tr td p {
   padding-left: 45px;
 }
 .contenidocaso p{
-  color: #c4c4c4;
+  color: #d1d1d1;
 }
 .contenidocaso p, h5 {
   line-height: 1.75;
@@ -214,8 +214,9 @@ margin: 10px auto;
 .info {
 position: absolute; /*Info sobre la imagen*/
 top: 5%;
-left: 10%; /*Desplazamos a partir de la esquina superior izquierda*/
+left: -20%; /*Desplazamos a partir de la esquina superior izquierda*/
 zoom: 1;
+width: 200px;
 filter: alpha(opacity=0); /*Opacidad Para IE */
 opacity: 0; /*Inicialmente transparente */
 padding: 5px;
@@ -225,7 +226,7 @@ border-radius: 5%;
 -moz-transition:all ease .8s; /*Aplicamos una ligera transición*/
 -webkit-transition:all ease .8s ;
 transition:all ease .8s;
-z-index: 2100;
+z-index: 999998;
 }
 .caja:hover .info {
 filter: alpha(opacity=80);
