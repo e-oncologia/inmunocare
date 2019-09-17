@@ -40,14 +40,14 @@ texto: #c4c4c4
 }
 
 #pre-load .load-circle:before {
-  background: #f6d365;
-  -webkit-box-shadow: 30px 0 0 #7eafe7;
-  -moz-box-shadow: 30px 0 0 #7eafe7;
-  box-shadow: 30px 0 0 #7eafe7;
+  background: #7eafe7;
+  -webkit-box-shadow: 30px 0 0 #474f7e;
+  -moz-box-shadow: 30px 0 0 #474f7e;
+  box-shadow: 30px 0 0 #474f7e;
 }
 
 #pre-load .load-circle:after {
-  background: #f6d365;
+  background: #7eafe7;
   -webkit-box-shadow: 30px 0 0 #474f7e;
   -moz-box-shadow: 30px 0 0 #474f7e;
   box-shadow: 30px 0 0 #474f7e;
@@ -225,7 +225,7 @@ texto: #c4c4c4
 }
 
 .main-content .close-menu-link {
-  color: #efefef;
+  color: #dddddd;
 }
 
 .main-content .close-menu-link:hover {
@@ -382,7 +382,7 @@ h5 {
 }
 
 .inner-content .content #enlace-info .summary {
-  color: #efefef;
+  color: #dddddd;
 }
 
 .inner-content .content #enlace-info .profile ul li .label i {
@@ -390,7 +390,7 @@ h5 {
 }
 
 .inner-content .content #enlace-info .profile ul li .value {
-  color: #efefef;
+  color: #dddddd;
 }
 
 .inner-content .content #enlace-info .social-media ul li a {
@@ -434,39 +434,37 @@ h5 {
 }
 
 .inner-content .content #services .single-service ul ul .service-body {
-  color: #efefef;
+  color: #dddddd;
 }
 
 .inner-content .content .skills .row,
-.inner-content .content .education .row,
+.inner-content .content .casotipo .row,
 .inner-content .content .experience .row,
 .inner-content .content .fun-facts .row {
   background: #363b5f;
 }
 
 .inner-content .content .skills h5:after,
-.inner-content .content .education h5:after,
+.inner-content .content .casotipo h5:after,
 .inner-content .content .experience h5:after,
 .inner-content .content .fun-facts h5:after {
   background: #f6d365;
 }
 
 .inner-content .content .skills .single-skills-wrapper .skills-heading,
-.inner-content .content .education .single-education .education-when-where,
-.inner-content .content .experience .single-experience .experience-when-where {
+.inner-content .content .casotipo .single-education .reflexion {
   color: #7eafe7;
   background: #2c3051;
 }
 
 .inner-content .content .skills .single-skills-wrapper > ul,
-.inner-content .content .education .single-education > ul,
+.inner-content .content .casotipo .single-education > ul,
 .inner-content .content .experience .single-experience > ul {
   border-color: #2c3051;
 }
 
-.inner-content .content .education .single-education ul ul .education-body,
-.inner-content .content .experience .single-experience ul ul .experience-body {
-  color: #efefef;
+.inner-content .content .casotipo .single-education ul ul .respuesta {
+  color: #dddddd;
 }
 
 .inner-content
@@ -477,9 +475,7 @@ h5 {
   .single-skill
   .skill-name
   i,
-.inner-content .content .education .single-education ul ul .education-name i,
-.inner-content .content .experience .single-experience ul ul .experience-name i,
-.inner-content .content .fun-facts .single-fun-fact .fun-fact-body i {
+.inner-content .content .casotipo .single-education ul ul .enunciado i {
   color: #7eafe7;
 }
 
@@ -491,7 +487,7 @@ h5 {
   .single-skill
   ul
   .percentage {
-  color: #efefef;
+  color: #dddddd;
 }
 
 .inner-content
@@ -569,7 +565,7 @@ h5 {
 }
 
 .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
-  color: #efefef;
+  color: #dddddd;
 }
 
 .inner-content .content .button-wrapper a {
@@ -603,7 +599,7 @@ h5 {
   ul
   li
   a {
-  color: #efefef;
+  color: #dddddd;
 }
 
 .main-content#portfolio
@@ -714,7 +710,7 @@ h5 {
 }
 
 .inner-content .content #enlace-info .list-enlace-info > ul > li .value {
-  color: #efefef;
+  color: #dddddd;
 }
 
 .inner-content
@@ -747,7 +743,7 @@ h5 {
 }
 
 .inner-content .content #enlace-form .note p {
-  color: #efefef;
+  color: #dddddd;
 }
 
 .inner-content

@@ -1,3 +1,8 @@
+/*
+ *
+ Metronal
+ *
+ */
 (function($) {
   "use strict";
 
@@ -120,10 +125,10 @@
   // Use TypeIt.js
   metronal.useTypeIt = function() {
     if (typeof TypeIt != "undefined") {
-      new TypeIt(".passion", {
+      new TypeIt(".mecanografia", {
         speed: 200,
         startDelay: 800,
-        strings: ["inmunoterapia"],
+        strings: ["sobre inmunoterapia"],
         breakLines: false,
         loop: true
       });
