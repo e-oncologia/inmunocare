@@ -119,53 +119,53 @@ texto: #c4c4c4
 
 @-webkit-keyframes ball2 {
   0% {
-    -webkit-box-shadow: 30px 0 0 #43e97b;
-    box-shadow: 30px 0 0 #43e97b;
+    -webkit-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
   }
   50% {
-    -webkit-box-shadow: 0 0 0 #43e97b;
-    box-shadow: 0 0 0 #43e97b;
+    -webkit-box-shadow: 0 0 0 #7eafe7;
+    box-shadow: 0 0 0 #7eafe7;
     margin-top: -20px;
     -webkit-transform: translate(15px, 15px);
     -o-transform: translate(15px, 15px);
     transform: translate(15px, 15px);
   }
   100% {
-    -webkit-box-shadow: 30px 0 0 #43e97b;
-    box-shadow: 30px 0 0 #43e97b;
+    -webkit-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
     margin-top: 0;
   }
 }
 
 @-moz-keyframes ball2 {
   0% {
-    -moz-box-shadow: 30px 0 0 #43e97b;
-    box-shadow: 30px 0 0 #43e97b;
+    -moz-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
   }
   50% {
-    -moz-box-shadow: 0 0 0 #43e97b;
-    box-shadow: 0 0 0 #43e97b;
+    -moz-box-shadow: 0 0 0 #7eafe7;
+    box-shadow: 0 0 0 #7eafe7;
     margin-top: -20px;
     -moz-transform: translate(15px, 15px);
     transform: translate(15px, 15px);
   }
   100% {
-    -moz-box-shadow: 30px 0 0 #43e97b;
-    box-shadow: 30px 0 0 #43e97b;
+    -moz-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
     margin-top: 0;
   }
 }
 
 @keyframes ball2 {
   0% {
-    -webkit-box-shadow: 30px 0 0 #43e97b;
-    -moz-box-shadow: 30px 0 0 #43e97b;
-    box-shadow: 30px 0 0 #43e97b;
+    -webkit-box-shadow: 30px 0 0 #7eafe7;
+    -moz-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
   }
   50% {
-    -webkit-box-shadow: 0 0 0 #43e97b;
-    -moz-box-shadow: 0 0 0 #43e97b;
-    box-shadow: 0 0 0 #43e97b;
+    -webkit-box-shadow: 0 0 0 #7eafe7;
+    -moz-box-shadow: 0 0 0 #7eafe7;
+    box-shadow: 0 0 0 #7eafe7;
     margin-top: -20px;
     -webkit-transform: translate(15px, 15px);
     -moz-transform: translate(15px, 15px);
@@ -174,9 +174,9 @@ texto: #c4c4c4
     transform: translate(15px, 15px);
   }
   100% {
-    -webkit-box-shadow: 30px 0 0 #43e97b;
-    -moz-box-shadow: 30px 0 0 #43e97b;
-    box-shadow: 30px 0 0 #43e97b;
+    -webkit-box-shadow: 30px 0 0 #7eafe7;
+    -moz-box-shadow: 30px 0 0 #7eafe7;
+    box-shadow: 30px 0 0 #7eafe7;
     margin-top: 0;
   }
 }
