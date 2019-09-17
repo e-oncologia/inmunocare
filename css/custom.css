@@ -35,7 +35,7 @@ html {
 body {
   line-height: 1.75;
   font-family: "Open Sans", "Segoe UI", sans-serif;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 a,
@@ -101,7 +101,7 @@ table tr td p {
   margin: 0 auto;
 }
 .gris {
-  opacity: .6;
+  opacity: .8;
 }
 .amarillo {
   color: #f6d365;
@@ -119,7 +119,7 @@ table tr td p {
   color: #d1d1d1;
 }
 .contenidocaso p, h5 {
-  line-height: 1.75;
+  line-height: 1.5;
   padding: 10px;
 }
 .turquesa {
@@ -214,7 +214,7 @@ margin: 10px auto;
 .info {
 position: absolute; /*Info sobre la imagen*/
 top: 5%;
-left: -20%; /*Desplazamos a partir de la esquina superior izquierda*/
+left: -40px; /*Desplazamos a partir de la esquina superior izquierda*/
 zoom: 1;
 width: 200px;
 filter: alpha(opacity=0); /*Opacidad Para IE */

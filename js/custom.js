@@ -123,7 +123,7 @@
       new TypeIt(".passion", {
         speed: 200,
         startDelay: 800,
-        strings: ["Web Developer", "UI/UX Designer"],
+        strings: ["inmunoterapia"],
         breakLines: false,
         loop: true
       });
