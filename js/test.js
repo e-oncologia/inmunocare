@@ -1,3 +1,8 @@
+/*
+ *
+ Test/cuestionario. Copyright Javi Carrasco
+ *
+ */
 function mostrar() {
   div = document.getElementById("flotante");
   div.style.display = "";
