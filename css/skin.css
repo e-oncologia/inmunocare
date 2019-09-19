@@ -4,12 +4,12 @@ azul fondocajas: #363b5f
 azul hovercajas: #474f7e
 azul oscuro: #2c3051
 amarillo: #f6d365
-texto: #c4c4c4
+texto: #dddddd
 
 ============================================================== */
 
 .project-popup {
-  background: #fff;
+  background: #dddddd;
 }
 
 .project-popup .project-name {
@@ -19,7 +19,7 @@ texto: #c4c4c4
 
 .project-popup .project-source {
   background: #474f7e;
-  color: #fff;
+  color: #dddddd;
 }
 
 .project-popup .project-source > .back {
@@ -33,7 +33,7 @@ texto: #c4c4c4
 
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .mfp-close {
   background: #474f7e;
-  color: #fff;
+  color: #dddddd;
 }
 
 #pre-load {
@@ -217,8 +217,8 @@ texto: #c4c4c4
     rgb(255, 255, 255) 0%,
     rgb(248, 229, 193) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f8e5c1',GradientType=1 );
-  color: #fff;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#f8e5c1',GradientType=1 );
+  color: #dddddd;
 }
 
 .main-content {
@@ -230,7 +230,7 @@ texto: #c4c4c4
 }
 
 .main-content .close-menu-link:hover {
-  color: #fff;
+  color: #dddddd;
 }
 
 .main-content .hanging {
@@ -250,8 +250,7 @@ h5 {
 }
 
 .main-content .inner-content .head-content span,
-.main-content .inner-content .head-content .name,
-.main-content .inner-content .head-content .passion {
+.main-content .inner-content .head-content .name {
   color: #7eafe7;
 }
 
@@ -272,7 +271,7 @@ h5 {
   color: #7eafe7;
 }
 .word {
-  color: #fff;
+  color: #dddddd;
 }
 .word span {
   color: #7eafe7;
@@ -291,17 +290,6 @@ h5 {
   background: #474f7e;
 }
 
-.inner-content
-  .content
-  .box-wrapper
-  .inner-box-wrapper
-  .menu-link
-  .valign-center
-  h5
-  > span {
-  color: #f6d365;
-}
-
 .inner-content .content .box-casos .inner-box-wrapper {
   background: #363b5f;
 }
@@ -316,26 +304,6 @@ h5 {
   background: #474f7e;
 }
 
-.inner-content
-  .content
-  .box-casos
-  .inner-box-wrapper
-  .menu-link
-  .valign-center
-  i {
-  color: #f6d365;
-}
-
-.inner-content
-  .content
-  .box-casos
-  .inner-box-wrapper
-  .menu-link
-  .valign-center
-  h5
-  > span {
-  color: #f6d365;
-}
 
 .inner-content .content .box-index .inner-box-wrapper {
   background: #363b5f;
@@ -346,30 +314,29 @@ h5 {
   -moz-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
   box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
 }
-
 .inner-content .content .box-index .inner-box-wrapper:hover {
   background: #474f7e;
 }
 
-.inner-content
-  .content
-  .box-index
-  .inner-box-wrapper
-  .menu-link
-  .valign-center
-  i {
-  color: #f6d365;
+.conclusiones {
+  border-radius: 15px;
+  padding: 15px;
+  background: #363b5f;
+  -webkit-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
-.inner-content
-  .content
-  .box-index
-  .inner-box-wrapper
-  .menu-link
-  .valign-center
-  h5
-  > span {
-  color: #f6d365;
+.conclusiones:hover {
+  background: #474f7e;
+}
+
+.conclusiones p {
+  line-height: 1.5;
 }
 
 
@@ -388,29 +355,17 @@ h5 {
 }
 
 
-.inner-content .content .skills .row,
-.inner-content .content .casotipo .row,
-.inner-content .content .experience .row,
-.inner-content .content .fun-facts .row {
+.inner-content .content .casotipo .row {
   background: #363b5f;
 }
 
-.inner-content .content .skills h5:after,
-.inner-content .content .casotipo h5:after,
-.inner-content .content .experience h5:after,
-.inner-content .content .fun-facts h5:after {
-  background: #f6d365;
-}
 
-.inner-content .content .skills .single-skills-wrapper .skills-heading,
 .inner-content .content .casotipo .test .reflexion {
   color: #7eafe7;
   background: #2c3051;
 }
 
-.inner-content .content .skills .single-skills-wrapper > ul,
-.inner-content .content .casotipo .test > ul,
-.inner-content .content .experience .single-experience > ul {
+.inner-content .content .casotipo .test > ul {
   border-color: #2c3051;
 }
 
@@ -418,111 +373,15 @@ h5 {
   color: #dddddd;
 }
 
-.inner-content
-  .content
-  .skills
-  .single-skills-wrapper
-  ul
-  .single-skill
-  .skill-name
-  i,
+
 .inner-content .content .casotipo .test ul ul .enunciado i {
   color: #7eafe7;
 }
 
-.inner-content
-  .content
-  .skills
-  .single-skills-wrapper
-  ul
-  .single-skill
-  ul
-  .percentage {
-  color: #dddddd;
-}
-
-.inner-content
-  .content
-  .skills
-  .single-skills-wrapper
-  ul
-  .single-skill
-  ul
-  .progress-wrapper {
-  border-color: #fff;
-}
-
-.inner-content
-  .content
-  .skills
-  .single-skills-wrapper
-  ul
-  .single-skill
-  ul
-  .progress-wrapper
-  .progress {
-  background: #474f7e;
-  background: -webkit-linear-gradient(
-    45deg,
-    #474f7e 25%,
-    transparent 25%,
-    transparent 50%,
-    #474f7e 50%,
-    #474f7e 75%,
-    transparent 75%,
-    transparent
-  );
-  background: -moz-linear-gradient(
-    45deg,
-    #474f7e 25%,
-    transparent 25%,
-    transparent 50%,
-    #474f7e 50%,
-    #474f7e 75%,
-    transparent 75%,
-    transparent
-  );
-  background: -ms-linear-gradient(
-    45deg,
-    #474f7e 25%,
-    transparent 25%,
-    transparent 50%,
-    #474f7e 50%,
-    #474f7e 75%,
-    transparent 75%,
-    transparent
-  );
-  background: -o-linear-gradient(
-    45deg,
-    #474f7e 25%,
-    transparent 25%,
-    transparent 50%,
-    #474f7e 50%,
-    #474f7e 75%,
-    transparent 75%,
-    transparent
-  );
-  background: linear-gradient(
-    45deg,
-    #474f7e 25%,
-    transparent 25%,
-    transparent 50%,
-    #474f7e 50%,
-    #474f7e 75%,
-    transparent 75%,
-    transparent
-  );
-  border-right-color: #fff;
-}
-
-.inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
-  color: #dddddd;
-}
-
 .inner-content .content .button-wrapper a {
   background: #474f7e;
-  border-color: #fff;
-  color: #fff;
+  border-color: #dddddd;
+  color: #dddddd;
 }
 
 .inner-content .content .button-wrapper a > .back {
@@ -534,117 +393,6 @@ h5 {
   color: #7eafe7;
 }
 
-.main-content#portfolio .inner-content .content #projects > .row {
-  background: #363b5f;
-}
-
-.main-content#portfolio .inner-content .content #projects h5:after {
-  background: #43e97b;
-}
-
-.main-content#portfolio
-  .inner-content
-  .content
-  #projects
-  .portfolio-filter
-  ul
-  li
-  a {
-  color: #dddddd;
-}
-
-.main-content#portfolio
-  .inner-content
-  .content
-  #projects
-  .portfolio-filter
-  ul
-  li
-  a.current {
-  background: #363b5f;
-  border-color: #fff;
-  color: #fff;
-}
-
-.main-content#portfolio
-  .inner-content
-  .content
-  #projects
-  .portfolio-item
-  .item-wrapper
-  .item
-  .overlay {
-  background: rgba(44, 48, 81, 0.9);
-  border-color: #fff;
-}
-
-.main-content#portfolio
-  .inner-content
-  .content
-  #projects
-  .portfolio-item
-  .item-wrapper
-  .item
-  .overlay
-  .view-more {
-  background: #474f7e;
-  border-color: #fff;
-  color: #fff;
-}
-
-.main-content#portfolio
-  .inner-content
-  .content
-  #projects
-  .portfolio-item
-  .item-wrapper
-  .item
-  .overlay
-  .view-more
-  > .back {
-  background: #2c3051;
-}
-
-.main-content#portfolio
-  .inner-content
-  .content
-  #projects
-  .portfolio-item
-  .item-wrapper
-  .item
-  .overlay
-  .view-more
-  > .front
-  > .value
-  > span,
-.main-content#portfolio
-  .inner-content
-  .content
-  #projects
-  .portfolio-item
-  .item-wrapper
-  .item
-  .overlay
-  .view-more
-  > .back
-  > .value
-  > span {
-  color: #7eafe7;
-}
-
-.main-content#portfolio
-  .inner-content
-  .content
-  #projects
-  .portfolio-item
-  .item-wrapper
-  .item
-  .overlay
-  .image-info
-  .project-name {
-  color: #7eafe7;
-}
-
 
 #right-wrapper {
   background: #363b5f;
@@ -653,7 +401,7 @@ h5 {
 .marcoTexto {
   margin: 20px;
   padding: 15px 15px;
-  border-radius: 5px;
+  border-radius: 15px;
   background: #2c3051;
   text-align: center;
   cursor: pointer;
@@ -664,7 +412,7 @@ h5 {
   line-height: normal;
 }
 .marcoTexto:hover {
-  background: #2c3051;
+  background: #474f7e;
 }
 
 .marcoTexto h5 {
