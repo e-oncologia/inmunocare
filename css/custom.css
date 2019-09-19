@@ -140,6 +140,14 @@ table tr td p {
   height: auto;
   margin: 0 auto;
 }
+.responsive {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+}
 .gris {
   opacity: .8;
 }
@@ -1112,7 +1120,7 @@ opacity: .8;
   margin-bottom: 0;
 }
 
-.contenidocaso ul li .label {
+ul li .label {
   display: -webkit-box;
   display: -moz-box;
   display: -webkit-flex;
@@ -1125,12 +1133,12 @@ opacity: .8;
   align-items: baseline;
 }
 
-.contenidocaso .label,
-.contenidocaso ul li .dash {
+.label,
+ul li .dash {
   margin-right: 5px;
 }
 
-.contenidocaso ul li .label i {
+ul li .label i {
   margin-right: 13px;
 }
 
