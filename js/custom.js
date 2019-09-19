@@ -1,8 +1,3 @@
-/*
- *
- Metronal
- *
- */
 (function($) {
   "use strict";
 

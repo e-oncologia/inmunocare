@@ -321,6 +321,7 @@ h5 {
 .conclusiones {
   border-radius: 15px;
   padding: 15px;
+  margin: 15px;
   background: #363b5f;
   -webkit-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);

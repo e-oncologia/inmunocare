@@ -46,14 +46,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    text-align: left;
-    background-color: #fff;
+	line-height: 1;
 }
 [tabindex="-1"]:focus {
     outline: 0!important;
@@ -899,7 +892,9 @@ pre code {
     margin-left: 83.333333%}
 .offset-md-11 {
     margin-left: 91.666667%}
-}@media (min-width:992px) {
+}
+
+@media (min-width:992px) {
     .col-lg {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -933,9 +928,8 @@ pre code {
     flex: 0 0 41.666667%;
     max-width: 41.666667%}
 .col-lg-6 {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%}
+    width: 50%
+  }
 .col-lg-7 {
     -ms-flex: 0 0 58.333333%;
     flex: 0 0 58.333333%;
@@ -1045,7 +1039,9 @@ pre code {
     margin-left: 83.333333%}
 .offset-lg-11 {
     margin-left: 91.666667%}
-}@media (min-width:1200px) {
+}
+
+@media (min-width:1200px) {
     .col-xl {
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
@@ -1339,6 +1335,7 @@ pre code {
 .table-dark.table-hover tbody tr:hover {
     background-color: rgba(255, 255, 255, .075);
 }
+
 @media (max-width:575.98px) {
     .table-responsive-sm {
     display: block;
@@ -1350,7 +1347,9 @@ pre code {
 .table-responsive-sm>.table-bordered {
     border: 0;
 }
-}@media (max-width:767.98px) {
+}
+
+@media (max-width:767.98px) {
     .table-responsive-md {
     display: block;
     width: 100%;
@@ -1361,7 +1360,9 @@ pre code {
 .table-responsive-md>.table-bordered {
     border: 0;
 }
-}@media (max-width:991.98px) {
+}
+
+@media (max-width:991.98px) {
     .table-responsive-lg {
     display: block;
     width: 100%;
@@ -1372,7 +1373,9 @@ pre code {
 .table-responsive-lg>.table-bordered {
     border: 0;
 }
-}@media (max-width:1199.98px) {
+}
+
+@media (max-width:1199.98px) {
     .table-responsive-xl {
     display: block;
     width: 100%;
@@ -1407,6 +1410,7 @@ pre code {
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
 @media screen and (prefers-reduced-motion:reduce) {
     .form-control {
     transition: none;
