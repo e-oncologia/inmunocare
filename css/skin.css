@@ -304,7 +304,6 @@ h5 {
   background: #474f7e;
 }
 
-
 .inner-content .content .box-index .inner-box-wrapper {
   background: #363b5f;
 }
@@ -340,11 +339,9 @@ h5 {
   line-height: 1.5;
 }
 
-
 ul li .label i {
   color: #7eafe7;
 }
-
 
 .inner-content .content .button-wrapper a > .back {
   background: #2c3051;
@@ -355,11 +352,9 @@ ul li .label i {
   color: #7eafe7;
 }
 
-
 .inner-content .content .casotipo .row {
   background: #363b5f;
 }
-
 
 .inner-content .content .casotipo .test .reflexion {
   color: #7eafe7;
@@ -373,7 +368,6 @@ ul li .label i {
 .inner-content .content .casotipo .test ul ul .respuesta {
   color: #dddddd;
 }
-
 
 .inner-content .content .casotipo .test ul ul .enunciado i {
   color: #7eafe7;
@@ -394,28 +388,18 @@ ul li .label i {
   color: #7eafe7;
 }
 
-
 #right-wrapper {
   background: #363b5f;
 }
 
 .marcoTexto {
-  margin: 20px;
-  padding: 15px 15px;
-  border-radius: 15px;
-  background: #2c3051;
-  text-align: center;
-  cursor: pointer;
-}
-.centradovertical {
-  display: table-cell;
-  vertical-align: middle;
-  line-height: normal;
-}
-.marcoTexto:hover {
-  background: #474f7e;
+  background: hsl(234, 30%, 25%);
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
-.marcoTexto h5 {
-  line-height: 2;
+.marcoTexto:hover {
+  background: #474f7e !important;
 }
