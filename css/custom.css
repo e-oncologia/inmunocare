@@ -284,6 +284,9 @@ h5 {
 .turquesa {
   color: #7eafe7;
 }
+.negrita {
+  font-weight: 800;
+}
 .intermitente:hover {
   color: #7eafe7;
   -webkit-transition: 0.4s ease-in-out;
@@ -2503,7 +2506,7 @@ ul li .value {
   visibility: hidden;
   position: absolute;
   top: 5%;
-  left: -40px; 
+  left: -40px;
   width: 170px;
   background-color: black;
   color: #fff;
