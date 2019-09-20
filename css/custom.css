@@ -2503,7 +2503,7 @@ ul li .value {
   visibility: hidden;
   position: absolute;
   top: 5%;
-  left: -40px; /*a partir de la esquina superior izquierda*/
+  left: -40px; 
   width: 170px;
   background-color: black;
   color: #fff;
