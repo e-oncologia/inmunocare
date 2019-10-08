@@ -266,12 +266,12 @@ table tr td p {
 }
 
 .perfil1 {
-  height: 49%;
+  height: 54%;
   position: relative;
-  padding-top: 13%;
+  padding-top: 23%;
 }
 .perfil2 {
-  height: 17%;
+  height: 23%;
   position: relative;
   padding: 0px 20% 0px 20%;
 }
@@ -633,7 +633,7 @@ h5 {
   border-radius: 15px;
   cursor: pointer;
   width: 100%;
-  height: 5em;
+  height: 10em;
   position: relative;
   display: table;
 }
@@ -1732,13 +1732,13 @@ ul li .value {
   .cajacaso1 {
     width: 40%;
     float: left;
-    padding: 8px;
+    padding: 10px 0px;
   }
 
   .cajacaso2 {
     width: 60%;
     float: left;
-    padding: 8px;
+    padding: 8px 0px;
   }
 
   .main-content {
@@ -2392,7 +2392,9 @@ ul li .value {
   }
 }
 
-#overlay1, #overlay2, #overlay3 {
+#overlay1,
+#overlay2,
+#overlay3 {
   position: fixed; /* Sit on top of the page content */
   display: none; /* Hidden by default */
   width: 100%; /* Full width (cover the whole page) */
