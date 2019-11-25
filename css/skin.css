@@ -4,12 +4,12 @@ azul fondocajas: #363b5f
 azul hovercajas: #474f7e
 azul oscuro: #2c3051
 amarillo: #f6d365
-texto: #dddddd
+texto: #ffffff
 
 ============================================================== */
 
 .project-popup {
-  background: #dddddd;
+  background: #ffffff;
 }
 
 .project-popup .project-name {
@@ -19,7 +19,7 @@ texto: #dddddd
 
 .project-popup .project-source {
   background: #474f7e;
-  color: #dddddd;
+  color: #ffffff;
 }
 
 .project-popup .project-source > .back {
@@ -33,7 +33,7 @@ texto: #dddddd
 
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .mfp-close {
   background: #474f7e;
-  color: #dddddd;
+  color: #ffffff;
 }
 
 #pre-load {
@@ -217,8 +217,8 @@ texto: #dddddd
     rgb(255, 255, 255) 0%,
     rgb(248, 229, 193) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dddddd', endColorstr='#f8e5c1',GradientType=1 );
-  color: #dddddd;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f8e5c1',GradientType=1 );
+  color: #ffffff;
 }
 
 .main-content {
@@ -226,11 +226,11 @@ texto: #dddddd
 }
 
 .main-content .close-menu-link {
-  color: #dddddd;
+  color: #ffffff;
 }
 
 .main-content .close-menu-link:hover {
-  color: #dddddd;
+  color: #ffffff;
 }
 
 .main-content .hanging {
@@ -271,7 +271,7 @@ h5 {
   color: #7eafe7;
 }
 .word {
-  color: #dddddd;
+  color: #ffffff;
 }
 .word span {
   color: #7eafe7;
@@ -366,7 +366,7 @@ ul li .label i {
 }
 
 .inner-content .content .casotipo .test ul ul .respuesta {
-  color: #dddddd;
+  color: #ffffff;
 }
 
 .inner-content .content .casotipo .test ul ul .enunciado i {
@@ -375,8 +375,8 @@ ul li .label i {
 
 .inner-content .content .button-wrapper a {
   background: #474f7e;
-  border-color: #dddddd;
-  color: #dddddd;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .inner-content .content .button-wrapper a > .back {
