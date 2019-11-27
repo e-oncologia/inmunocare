@@ -7,7 +7,12 @@ amarillo: #f6d365
 texto: #ffffff
 
 ============================================================== */
-
+a {
+  color: #7eafe7;
+}
+a:hover {
+  color: #ffffff;
+}
 .project-popup {
   background: #ffffff;
 }
@@ -230,7 +235,7 @@ texto: #ffffff
 }
 
 .main-content .close-menu-link:hover {
-  color: #ffffff;
+  color: #e0e0e0;
 }
 
 .main-content .hanging {

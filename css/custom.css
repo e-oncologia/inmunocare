@@ -166,13 +166,6 @@ a:focus {
   transition: 0.4s ease-in-out;
 }
 
-a {
-  color: #e0e0e0;
-}
-a:hover {
-  color: #7eafe7;
-}
-
 ul {
   list-style: none;
 }
@@ -255,6 +248,16 @@ table tr td p {
   vertical-align: middle;
 }
 
+.autora {
+  border-radius: 20%;
+  -webkit-transition: 0.4s ease-in-out;
+  -moz-transition: 0.4s ease-in-out;
+  -o-transition: 0.4s ease-in-out;
+  transition: 0.4s ease-in-out;
+}
+.autora:hover {
+  border-radius: 50%;
+}
 .text-center {
   text-align: center;
 }
