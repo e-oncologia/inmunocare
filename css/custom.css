@@ -238,25 +238,32 @@ table tr td p {
   height: auto;
   margin: 0 auto;
 }
+
+.respon {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: auto;
+  margin: 0 auto;
+}
+
 .gris {
   opacity: 0.8;
 }
-.amarillo {
-  color: #f6d365;
-}
+
 .medio {
   vertical-align: middle;
 }
 
 .autora {
-  border-radius: 20%;
+  border-radius: 40%;
   -webkit-transition: 0.4s ease-in-out;
   -moz-transition: 0.4s ease-in-out;
   -o-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
 }
 .autora:hover {
-  border-radius: 50%;
+  border-radius: 45%;
 }
 .text-center {
   text-align: center;
