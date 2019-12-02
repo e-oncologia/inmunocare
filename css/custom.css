@@ -2520,16 +2520,12 @@ ul li .value {
   top: 5%;
   left: -40px;
   width: 170px;
-  background-color: black;
+  background-color: #5a93d4;
   color: #fff;
   padding: 5px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
   border-radius: 15px;
-  -webkit-transition: 0.4s ease-in-out;
-  -moz-transition: 0.4s ease-in-out;
-  -o-transition: 0.4s ease-in-out;
-  transition: 0.4s ease-in-out;
   z-index: 999998;
   position: absolute;
   z-index: 1;
