@@ -2531,6 +2531,7 @@ ul li .value {
   border-radius: 15px;
   z-index: 999998;
   position: absolute;
+  text-align: center;
   z-index: 1;
 }
 .tooltip:hover .tooltiptext {
