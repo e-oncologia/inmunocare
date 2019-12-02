@@ -2433,7 +2433,7 @@ ul li .value {
   transition: 0.4s ease-in-out;
 }
 .popup:hover {
-  background: rgba(33, 36, 61, 0.9);
+  background: rgba(33, 36, 61, 1);
 }
 .popup p {
   line-height: 1.5;
@@ -2511,17 +2511,17 @@ ul li .value {
 .tooltip {
   position: relative;
   display: inline-block;
-  color: #7eafe7;
+  color: #f6d365;
   cursor: pointer;
 }
 .tooltip .tooltiptext {
   visibility: hidden;
   position: absolute;
-  top: 5%;
+  top: 100%;
   left: -40px;
   width: 170px;
-  color: white;
-  background-color: #009eb3;
+  color: #ffffff;
+  background-color: #474f7e;
   -webkit-box-shadow: inset -260px 30px 80px -30px rgba(255, 255, 255, 0.4);
   -moz-box-shadow: inset -260px 30px 80px -30px rgba(255, 255, 255, 0.4);
   box-shadow: inset -260px 30px 80px -30px rgba(255, 255, 255, 0.4);
