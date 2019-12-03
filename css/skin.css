@@ -30,7 +30,9 @@ a span:hover {
 .amarillo {
   color: #a7cad4;
 }
-
+.blanco {
+  color: #ffffff;
+}
 .project-popup .project-name {
   border-bottom-color: #eee;
   color: #474f7e;

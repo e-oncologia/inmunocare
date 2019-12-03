@@ -2518,13 +2518,13 @@ ul li .value {
   visibility: hidden;
   position: absolute;
   top: 100%;
-  left: -40px;
+  left: -60px;
   width: 170px;
   color: #ffffff;
   background-color: #474f7e;
-  -webkit-box-shadow: inset -260px 30px 80px -30px rgba(255, 255, 255, 0.4);
-  -moz-box-shadow: inset -260px 30px 80px -30px rgba(255, 255, 255, 0.4);
-  box-shadow: inset -260px 30px 80px -30px rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: inset -160px 30px 80px -30px rgba(255, 255, 255, 0.4);
+  -moz-box-shadow: inset -160px 30px 80px -30px rgba(255, 255, 255, 0.4);
+  box-shadow: inset -160px 30px 80px -30px rgba(255, 255, 255, 0.4);
   padding: 5px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
