@@ -33,6 +33,9 @@ a span:hover {
 .blanco {
   color: #ffffff;
 }
+.azul {
+  color: #7eafe7;
+}
 .project-popup .project-name {
   border-bottom-color: #eee;
   color: #474f7e;
@@ -423,4 +426,13 @@ ul li .label i {
 
 .marcoTexto:hover {
   background: #474f7e !important;
+}
+.marquito {
+  border-radius: 15px;
+  padding: 15px;
+  margin: 15px;
+  background: #363b5f;
+  -webkit-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
 }
