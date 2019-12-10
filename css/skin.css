@@ -36,6 +36,12 @@ a span:hover {
 .azul {
   color: #7eafe7;
 }
+.turquesa {
+  color: #7eafe7;
+}
+.BGblanco {
+  background: #ffffff;
+}
 .project-popup .project-name {
   border-bottom-color: #eee;
   color: #474f7e;
@@ -379,7 +385,15 @@ ul li .label i {
 .inner-content .content .casotipo .row {
   background: #363b5f;
 }
-
+.inner-content .content .casotipo #fondo.row {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 0.05) 0%,
+    rgba(9, 9, 121, 0.05) 35%,
+    rgb(77, 166, 194, 0.05) 100%
+  );
+}
 .inner-content .content .casotipo .test .reflexion {
   color: #7eafe7;
   background: #2c3051;
@@ -425,7 +439,7 @@ ul li .label i {
 }
 
 .marcoTexto:hover {
-  background: #474f7e !important;
+  background: #474f7e;
 }
 .marquito {
   border-radius: 15px;
