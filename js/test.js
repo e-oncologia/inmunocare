@@ -62,3 +62,18 @@ function resultadoB() {
     cerrarB(), mostrarIncorrectoB();
   }
 }
+
+/*
+ *
+ pregunta única. Copyright Javi Carrasco
+ *
+ */
+
+function mostrarclick() {
+  var x = document.getElementById("mostrar");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
