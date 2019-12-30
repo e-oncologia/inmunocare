@@ -449,6 +449,7 @@ ul li .label i {
   -webkit-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
   -moz-box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
   box-shadow: 0 2px 130px 0 rgba(0, 0, 0, 0.6);
+  margin: 0 auto;
 }
 .respon {
   -webkit-filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.6));
