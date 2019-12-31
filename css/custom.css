@@ -152,7 +152,7 @@ html {
 body {
   line-height: 1.75;
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 a,
@@ -307,6 +307,9 @@ h5 {
   transition: 0.4s ease-in-out;
 }
 .pregunta {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 1.333em;
+
   margin-top: 20px;
   padding: 20px;
   -webkit-border-radius: 15px;
@@ -1472,10 +1475,6 @@ ul li .value {
   margin-right: 1px;
 }
 
-.inner-content .content .casotipo .test .reflexion .pregunta {
-  font-weight: 700;
-}
-
 .inner-content .content .casotipo .test > ul {
   border-width: 1px;
   border-style: solid;
@@ -2523,10 +2522,10 @@ ul li .value {
   left: -60px;
   width: 170px;
   color: #ffffff;
-  background-color: #474f7e;
+  background-color: #363b5f;
   -webkit-box-shadow: inset -160px 30px 80px -30px rgba(255, 255, 255, 0.4);
   -moz-box-shadow: inset -160px 30px 80px -30px rgba(255, 255, 255, 0.4);
-  box-shadow: inset -160px 30px 80px -30px rgba(255, 255, 255, 0.4);
+  box-shadow: inset -160px 30px 80px -30px rgba(13, 10, 41, 0.4);
   padding: 5px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
