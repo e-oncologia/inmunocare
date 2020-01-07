@@ -209,7 +209,9 @@ h5 {
 h6 {
   font-size: 1em;
 }
-
+.peque {
+  font-size: 1.1em;
+}
 table tr td p {
   line-height: 1.2;
 }
@@ -278,7 +280,14 @@ table tr td p {
 .tab2 {
   padding-left: 45px;
 }
-
+.tab3 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tab4 {
+  margin-left: 30px;
+  margin-right: 10px;
+}
 .perfil1 {
   height: 54%;
   position: relative;
@@ -357,6 +366,7 @@ h5 {
   position: absolute;
   top: 0;
   left: 0;
+  margin-top: 5px;
   height: 20px;
   width: 20px;
   background-color: #dadada;
@@ -431,7 +441,6 @@ h5 {
 .mitad {
   width: 50%;
   float: left;
-  padding: 10px;
 }
 
 .cajacaso1,
@@ -2523,8 +2532,8 @@ ul li .value {
   width: 170px;
   color: #ffffff;
   background-color: #363b5f;
-  -webkit-box-shadow: inset -160px 30px 80px -30px rgba(255, 255, 255, 0.4);
-  -moz-box-shadow: inset -160px 30px 80px -30px rgba(255, 255, 255, 0.4);
+  -webkit-box-shadow: inset -160px 30px 80px -30px rgba(13, 10, 41, 0.4);
+  -moz-box-shadow: inset -160px 30px 80px -30px rgba(13, 10, 41, 0.4);
   box-shadow: inset -160px 30px 80px -30px rgba(13, 10, 41, 0.4);
   padding: 5px;
   -webkit-border-radius: 15px;
