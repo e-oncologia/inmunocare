@@ -269,6 +269,9 @@ table tr td p {
 .text-center {
   text-align: center;
 }
+.text-left {
+  text-align: left;
+}
 .tab1 {
   padding-left: 30px;
 }
@@ -441,6 +444,7 @@ h5 {
 .mitad {
   width: 50%;
   float: left;
+  padding-right: 10px;
 }
 
 .cajacaso1,
@@ -1559,7 +1563,6 @@ ul li .value {
 
 .button-wrapper a {
   display: inline-block;
-  text-transform: capitalize;
   border-width: 1px;
   border-style: solid;
   margin-right: 10px;
