@@ -181,38 +181,34 @@ h4,
 h5,
 h6 {
   font-family: "Montserrat", Arial, sans-serif;
-  font-weight: 800;
   margin-bottom: 10px;
   line-height: 1.5;
 }
 
 h1 {
-  font-size: 4.209em;
+  font-size: 40px;
 }
 
 h2 {
-  font-size: 3.157em;
+  font-size: 35px;
 }
 
 h3 {
-  font-size: 2.369em;
+  font-size: 30px;
 }
 
 h4 {
-  font-size: 1.333em;
+  font-size: 22px;
 }
 
 h5 {
-  font-size: 1.333em;
+  font-size: 20px;
 }
 
 h6 {
-  font-weight: 400;
-  font-size: 1em;
+  font-size: 20px;
 }
-.peque {
-  font-size: 1em !important;
-}
+
 table tr td p {
   line-height: 1.2;
 }
@@ -1190,6 +1186,7 @@ h4 {
   width: 50%;
   height: 24%;
   float: left;
+  overflow: hidden;
   padding: 10px 20px 0px 20px;
 }
 
@@ -1678,30 +1675,6 @@ ul li .value {
 /*=================================================================*/
 
 @media (min-width: 1440px) {
-  h1 {
-    font-size: 5.653em;
-  }
-
-  h2 {
-    font-size: 3.998em;
-  }
-
-  h3 {
-    font-size: 2.827em;
-  }
-
-  h4 {
-    font-size: 1.414em;
-  }
-
-  h5 {
-    font-size: 1.414em;
-  }
-
-  h6 {
-    font-size: 1em;
-  }
-
   .main-content .inner-content .head-content {
     height: -webkit-calc((60px * 2) + 2.827em - 12px);
     height: -moz-calc((60px * 2) + 2.827em - 12px);
@@ -1727,52 +1700,37 @@ ul li .value {
   .inner-content .content .experience .single-experience ul ul {
     padding-bottom: 23px;
   }
-
-  .inner-content .content .fun-facts .single-fun-fact .fun-fact-icon {
-    margin-bottom: 8px;
-  }
-
-  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
-    margin-bottom: 2px;
-  }
-
-  .inner-content .content .fun-facts .single-fun-fact .fun-fact-value {
-    font-size: 2.827em;
-  }
 }
 
 @media (max-width: 1199px) {
   h1 {
-    font-size: 3.052em;
+    font-size: 33px;
   }
 
   h2 {
-    font-size: 2.441em;
+    font-size: 30px;
   }
 
   h3 {
-    font-size: 1.953em;
+    font-size: 25px;
   }
 
   h4 {
-    font-size: 1.25em;
+    font-size: 20px;
   }
 
   h5 {
-    font-size: 1.25em;
+    font-size: 17px;
   }
 
   h6 {
-    font-size: 1em;
+    font-size: 15px;
   }
 
   #wrapper {
     padding: 25px;
   }
 
-  .cajacaso2 h5 {
-    font-size: 1.1em;
-  }
   .cajacaso1 {
     width: 40%;
     float: left;
@@ -1965,28 +1923,29 @@ ul li .value {
 
 @media (max-width: 991px) {
   h1 {
-    font-size: 2.488em;
+    font-size: 30px;
   }
 
   h2 {
-    font-size: 2.074em;
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 1.728em;
+    font-size: 20px;
   }
 
   h4 {
-    font-size: 1.2em;
+    font-size: 19px;
   }
 
   h5 {
-    font-size: 1.2em;
+    font-size: 19px;
   }
 
   h6 {
-    font-size: 1em;
+    font-size: 14px;
   }
+
   .mitad {
     width: 100%;
   }
@@ -2117,17 +2076,6 @@ ul li .value {
     height: 100%;
   }
 
-  .main-content .inner-content .content .box-bienvenida {
-    padding-bottom: 10px;
-  }
-  .main-content .inner-content .content .box-casos {
-    padding-bottom: 10px;
-  }
-
-  .main-content .inner-content .content .box-index {
-    padding-bottom: 10px;
-  }
-
   .inner-content .content .casotipo .row {
     margin-top: 20px;
   }
@@ -2164,47 +2112,6 @@ ul li .value {
   .main-content .inner-content .content .box-casos {
     width: 100%;
     height: 25%;
-  }
-
-  .main-content
-    .inner-content
-    .content
-    .box-wrapper
-    .inner-box-wrapper
-    .menu-link
-    .valign-center
-    i {
-    font-size: 2.5em;
-  }
-  .main-content
-    .inner-content
-    .content
-    .box-bienvenida
-    .inner-box-wrapper
-    .menu-link
-    .valign-center
-    i {
-    font-size: 2.5em;
-  }
-  .main-content
-    .inner-content
-    .content
-    .box-casos
-    .inner-box-wrapper
-    .menu-link
-    .valign-center
-    i {
-    font-size: 2.5em;
-  }
-  .main-content
-    .inner-content
-    .content
-    .box-index
-    .inner-box-wrapper
-    .menu-link
-    .valign-center
-    i {
-    font-size: 2.5em;
   }
 
   .button-wrapper .single-button a {
@@ -2353,27 +2260,27 @@ ul li .value {
 
 @media (max-width: 575px) {
   h1 {
-    font-size: 1.802em;
+    font-size: 30px;
   }
 
   h2 {
-    font-size: 1.602em;
+    font-size: 20px;
   }
 
   h3 {
-    font-size: 1.424em;
+    font-size: 20px;
   }
 
   h4 {
-    font-size: 1.125em;
+    font-size: 19px;
   }
 
   h5 {
-    font-size: 1.125em;
+    font-size: 17px;
   }
 
   h6 {
-    font-size: 1em;
+    font-size: 13px;
   }
 
   .main-content .inner-content .head-content {
