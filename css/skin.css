@@ -468,3 +468,8 @@ ul li .label i {
   -webkit-filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.6));
   filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.6));
 }
+
+.centradaIMG {
+  -webkit-filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.6));
+  filter: drop-shadow(15px 15px 15px rgba(0, 0, 0, 0.6));
+}
