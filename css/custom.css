@@ -277,7 +277,7 @@ table tr td p {
   transition: 0.4s ease-in-out;
 }
 .autora:hover {
-  border-radius: 45%;
+  border-radius: 60%;
 }
 .text-center {
   text-align: center;
@@ -453,7 +453,9 @@ h5 {
   filter: alpha(opacity=80);
   opacity: 0.8;
 }
-
+.entero {
+  width: 100%;
+}
 .mitad {
   width: 50%;
   float: left;
