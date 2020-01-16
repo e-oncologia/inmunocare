@@ -254,7 +254,15 @@ table tr td p {
   margin-right: auto;
   max-width: 100%;
 }
-
+.centrada {
+  display: block;
+  max-width: 300px;
+  margin: 0px auto;
+}
+.centrada2 {
+  position: absolute;
+  margin: 0px auto;
+}
 .gris {
   opacity: 0.8;
 }
@@ -293,11 +301,7 @@ table tr td p {
   margin-left: 30px;
   margin-right: 10px;
 }
-.centrada {
-  display: block;
-  max-width: 300px;
-  margin: 0px auto;
-}
+
 .perfil1 {
   height: 350px;
   margin-top: 55px;
