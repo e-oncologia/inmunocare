@@ -45,9 +45,6 @@ a.button2:hover {
   color: #ffffff;
 }
 
-.project-popup {
-  background: #ffffff;
-}
 .amarillo {
   color: #a7cad4;
 }
@@ -66,20 +63,6 @@ a.button2:hover {
 .project-popup .project-name {
   border-bottom-color: #eee;
   color: #474f7e;
-}
-
-.project-popup .project-source {
-  background: #474f7e;
-  color: #ffffff;
-}
-
-.project-popup .project-source > .back {
-  background: #363b5f;
-}
-
-.project-popup .project-source > .front > .value > span,
-.project-popup .project-source > .back > .value > span {
-  color: #7eafe7;
 }
 
 .mfp-fade.mfp-wrap.mfp-ready .mfp-content .mfp-close {
